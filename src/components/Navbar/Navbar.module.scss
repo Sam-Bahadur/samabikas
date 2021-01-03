@@ -1,0 +1,15 @@
+.aboutus{
+    position: absolute;
+    top: 4rem;
+    left: 5.8rem;
+    background-color: #1E40AF;
+    box-shadow:  #6680d8 0.3rem .2rem .4rem ;
+    li{
+        cursor: pointer;
+        padding: .5rem 1rem;
+        color: whitesmoke;
+        &:hover{
+            background-color: #06195a;
+        }
+    }
+}
