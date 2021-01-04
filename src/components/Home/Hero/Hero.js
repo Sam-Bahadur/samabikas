@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="flex flex-wrap justify-between">
             <div className="">
                 {/* <img src="https://picsum.photos/200" /> */}
-                <span className="text-blue-700 text-5xl font-bold">Samabikas</span><span className="font-bold text-green-700 text-5xl">Nepal</span>
+                <span className="text-mainblue text-5xl font-bold">Samabikas</span><span className="font-bold text-green-700 text-5xl">Nepal</span>
                 <h3 className="text-gray-600 opacity-80">For Equity, Equality and Justice</h3>
             </div>
             <div className="self-center">

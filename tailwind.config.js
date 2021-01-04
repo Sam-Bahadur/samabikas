@@ -5,6 +5,11 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    container: {
+      // width: '80%',
+      // margin: '0 auto'
+      // center: true,
+    },
     screens: {
       sm: '640px',
       md: '768px',
@@ -14,8 +19,10 @@ module.exports = {
     },
     colors: {
       transparent: 'transparent',
+      mycolor: '#002233',
       current: 'currentColor',
-
+      mainblue :  '#007CCB',
+      maingreen : '#169455',
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
@@ -82,6 +89,7 @@ module.exports = {
       'gradient-to-bl': 'linear-gradient(to bottom left, var(--tw-gradient-stops))',
       'gradient-to-l': 'linear-gradient(to left, var(--tw-gradient-stops))',
       'gradient-to-tl': 'linear-gradient(to top left, var(--tw-gradient-stops))',
+      'bgimage': "url('bg.jpg')"
     },
     backgroundOpacity: (theme) => theme('opacity'),
     backgroundPosition: {
@@ -133,7 +141,6 @@ module.exports = {
       inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.06)',
       none: 'none',
     },
-    container: {},
     cursor: {
       auto: 'auto',
       default: 'default',

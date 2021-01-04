@@ -14,7 +14,7 @@ export default function Navbar() {
         </div>
 
     return (
-        <div className="container shadow-lg bg-green-600">
+        <div className="container shadow-lg bg-maingreen">
             <div className="h-20 list-none flex items-center mx-auto w-min sticky text-2xl capitalize">
                 <li className="mx-1 w-max p-2 border-radi  self-center cursor-pointer border-black   hover:bg-blue-800 transition-colors duration-500 ease-in-out">home</li>
                 <li className="mx-1 w-max p-2 border-radi relative  self-center cursor-pointer border-black   hover:bg-blue-800 transition-colors duration-500 ease-in-out" onMouseEnter={()=>setaboutUsClicked(true)} onMouseLeave={()=>setaboutUsClicked(false)}>About us</li>
