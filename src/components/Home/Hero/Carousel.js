@@ -10,17 +10,18 @@ export default function SimpleSlider() {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: 1 
+    slidesToScroll: 1 ,
+    // autoplay: true
   };
   return (
-      <div className="my-8">
+      <div className="my-8 cursor-grab" style={{zIndex:'-1'}}>
     <Slider {...settings}>
-      <div>
+      <>
         <img src={img} />
-      </div>
-      <div>
+      </>
+      <>
       <img src={img} />
-      </div>
+      </>
     </Slider>
       </div>
   );

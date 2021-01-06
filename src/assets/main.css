@@ -11057,6 +11057,10 @@ video {
   cursor: move;
 }
 
+.cursor-grab {
+  cursor: grab;
+}
+
 .cursor-not-allowed {
   cursor: not-allowed;
 }
@@ -40122,6 +40126,10 @@ video {
     cursor: move;
   }
 
+  .sm\:cursor-grab {
+    cursor: grab;
+  }
+
   .sm\:cursor-not-allowed {
     cursor: not-allowed;
   }
@@ -69142,6 +69150,10 @@ video {
 
   .md\:cursor-move {
     cursor: move;
+  }
+
+  .md\:cursor-grab {
+    cursor: grab;
   }
 
   .md\:cursor-not-allowed {
@@ -98166,6 +98178,10 @@ video {
     cursor: move;
   }
 
+  .lg\:cursor-grab {
+    cursor: grab;
+  }
+
   .lg\:cursor-not-allowed {
     cursor: not-allowed;
   }
@@ -127188,6 +127204,10 @@ video {
     cursor: move;
   }
 
+  .xl\:cursor-grab {
+    cursor: grab;
+  }
+
   .xl\:cursor-not-allowed {
     cursor: not-allowed;
   }
@@ -156208,6 +156228,10 @@ video {
 
   .\32xl\:cursor-move {
     cursor: move;
+  }
+
+  .\32xl\:cursor-grab {
+    cursor: grab;
   }
 
   .\32xl\:cursor-not-allowed {

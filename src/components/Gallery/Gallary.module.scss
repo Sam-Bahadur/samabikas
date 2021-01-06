@@ -1,0 +1,8 @@
+.gallarry {
+  img {
+    transition: 0.3s all ease-in-out;
+    &:hover {
+      transform: scale(0.97);
+    }
+  }
+}

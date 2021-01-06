@@ -1,15 +1,16 @@
 .aboutus{
     position: absolute;
-    top: 4rem;
-    left: 5.8rem;
+    top: 2.7rem;
+    left: 5rem;
+    z-index: 99;
     background-color: #1E40AF;
-    box-shadow:  #6680d8 0.3rem .2rem .4rem ;
-    li{
-        cursor: pointer;
-        padding: .5rem 1rem;
-        color: whitesmoke;
-        &:hover{
-            background-color: #06195a;
+    // box-shadow:  #6680d8 0.3rem .2rem .4rem ;
+        li{
+            cursor: pointer;
+            padding: .5rem 1rem;
+            color: whitesmoke;
+            &:hover{
+                background-color: #06195a;
+            }
         }
-    }
 }
