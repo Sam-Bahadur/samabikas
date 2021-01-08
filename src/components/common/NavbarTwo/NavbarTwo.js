@@ -24,10 +24,10 @@ export default function NavbarTwo() {
         <span className="text-gray-600">
           <AiFillPhone className="inline" />
           9843534725 <FiMail className="inline ml-2" /> samabikas@gmail.com{" "}
-          <AiFillFacebook className="inline ml-2" />
-          <AiFillTwitterSquare className="inline ml-2" />
-          <AiFillLinkedin className="inline ml-2" />
-          <AiFillYoutube className="inline ml-2" />{" "}
+          <AiFillFacebook className="inline ml-2 hover:text-mainblue duration-300 cursor-pointer text-2xl" />
+          <AiFillTwitterSquare className="inline ml-2 hover:text-mainblue duration-300 cursor-pointer text-2xl" />
+          <AiFillLinkedin className="inline ml-2 hover:text-mainblue duration-300 cursor-pointer text-2xl" />
+          <AiFillYoutube className="inline ml-2 hover:text-mainblue duration-300 cursor-pointer text-2xl" />{" "}
         </span>
       </div>
     </div>

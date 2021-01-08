@@ -5,10 +5,10 @@ import { IoIosArrowDown } from "react-icons/io";
 
 export default function Navbar() {
   const [aboutUsClicked, setaboutUsClicked] = useState(false);
+  const [partnershipClicked, setpartnershipClicked] = useState(false);
   const aboutUs = (
     <div
       className={style.aboutus}
-      style={{ zIndex: "9999" }}
       // className="z-50 absolute top-12 left-20 bg-mainblue p-4 cursor-pointer"
       onMouseEnter={() => setaboutUsClicked(true)}
       onMouseLeave={() => setaboutUsClicked(false)}
@@ -24,9 +24,28 @@ export default function Navbar() {
       </Link>
     </div>
   );
+
+  const partnership = (
+    <div
+      className={style.aboutus}
+      // className="z-50 absolute top-12 left-20 bg-mainblue p-4 cursor-pointer"
+      onMouseEnter={() => setpartnershipClicked(false)}
+      onMouseLeave={() => setpartnershipClicked(false)}
+    >
+      <Link to="">
+        <li>Partnership with NGOs</li>
+      </Link>
+      <Link to="">
+        <li>Partnership with INGOs</li>
+      </Link>
+      <Link to="">
+        <li>Partnership with Government</li>
+      </Link>
+    </div>
+  );
   return (
     <div className=" shadow-lg w-full bg-maingreen z-50 text-sm">
-      <div className="h-auto list-none  lg:flex items-center relative mx-auto w-min text-lg font-semibold text-white capitalize">
+      <div className="h-auto list-none  lg:flex items-center mx-auto w-min text-lg font-semibold text-white capitalize">
         <Link to="/">
           <li className="mx-1 hover:bg-blue-800 w-max p-2 border-radi  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out">
             home
@@ -38,7 +57,7 @@ export default function Navbar() {
               ? "mx-1 w-max p-2 bg-blue-800 border-radi relative  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
               : "mx-1 w-max p-2 border-radi relative  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
           }
-          onMouseEnter={() => setaboutUsClicked(true)}
+          onMouseEnter={() => setaboutUsClicked(false)}
           onMouseLeave={() => setaboutUsClicked(false)}
         >
           About us
@@ -47,9 +66,18 @@ export default function Navbar() {
         <li className="mx-1 w-max hover:bg-blue-800 p-2 border-radi self-center cursor-pointer border-black    transition-colors duration-500 ease-in-out">
           Programmes
         </li>
-        <li className="mx-1 w-max hover:bg-blue-800 p-2 border-radi self-center cursor-pointer border-black    transition-colors duration-500 ease-in-out">
-          Partnership
+        <li
+          className={
+            partnershipClicked
+              ? "mx-1 w-max p-2 bg-blue-800 border-radi relative  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
+              : "mx-1 w-max p-2 border-radi relative  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
+          }
+          onMouseEnter={() => setpartnershipClicked(false)}
+          onMouseLeave={() => setpartnershipClicked(false)}
+        >
+          Partnerships
         </li>
+        {partnershipClicked ? partnership : null}
         <Link to="/notice">
           <li className="mx-1 w-max hover:bg-blue-800 p-2 border-radi self-center cursor-pointer border-black    transition-colors duration-500 ease-in-out">
             Notice Board

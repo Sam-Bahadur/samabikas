@@ -19,7 +19,6 @@ module.exports = {
     },
     colors: {
       transparent: "transparent",
-      mycolor: "#002233",
       current: "currentColor",
       mainblue: "#007CCB",
       maingreen: "#F4B1BB",
@@ -73,7 +72,7 @@ module.exports = {
     },
     animation: {
       none: "none",
-      spin: "spin 1s linear infinite",
+      spin: "spin 5s linear infinite",
       ping: "ping 1s cubic-bezier(0, 0, 0.2, 1) infinite",
       pulse: "pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite",
       bounce: "bounce 1s infinite",

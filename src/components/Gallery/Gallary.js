@@ -60,7 +60,6 @@ export default function Gallary() {
             </Modal>
           ) : null}
         </ModalGateway>
-        Photoes will go here
       </div>
     </div>
   );

@@ -1490,11 +1490,6 @@ video {
   border-color: transparent;
 }
 
-.divide-mycolor > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-opacity: 1;
-  border-color: rgba(0, 34, 51, var(--tw-divide-opacity));
-}
-
 .divide-current > :not([hidden]) ~ :not([hidden]) {
   border-color: currentColor;
 }
@@ -2106,11 +2101,6 @@ video {
   background-color: transparent;
 }
 
-.bg-mycolor {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-}
-
 .bg-current {
   background-color: currentColor;
 }
@@ -2537,11 +2527,6 @@ video {
 
 .group:hover .group-hover\:bg-transparent {
   background-color: transparent;
-}
-
-.group:hover .group-hover\:bg-mycolor {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
 }
 
 .group:hover .group-hover\:bg-current {
@@ -2972,11 +2957,6 @@ video {
   background-color: transparent;
 }
 
-.focus-within\:bg-mycolor:focus-within {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-}
-
 .focus-within\:bg-current:focus-within {
   background-color: currentColor;
 }
@@ -3405,11 +3385,6 @@ video {
   background-color: transparent;
 }
 
-.hover\:bg-mycolor:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-}
-
 .hover\:bg-current:hover {
   background-color: currentColor;
 }
@@ -3836,11 +3811,6 @@ video {
 
 .focus\:bg-transparent:focus {
   background-color: transparent;
-}
-
-.focus\:bg-mycolor:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
 }
 
 .focus\:bg-current:focus {
@@ -4312,11 +4282,6 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
 }
 
-.from-mycolor {
-  --tw-gradient-from: #002233;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
-}
-
 .from-current {
   --tw-gradient-from: currentColor;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -4746,10 +4711,6 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
 }
 
-.via-mycolor {
-  --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-}
-
 .via-current {
   --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
@@ -5092,10 +5053,6 @@ video {
 
 .to-transparent {
   --tw-gradient-to: transparent;
-}
-
-.to-mycolor {
-  --tw-gradient-to: #002233;
 }
 
 .to-current {
@@ -5441,11 +5398,6 @@ video {
 .hover\:from-transparent:hover {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
-}
-
-.hover\:from-mycolor:hover {
-  --tw-gradient-from: #002233;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
 }
 
 .hover\:from-current:hover {
@@ -5877,10 +5829,6 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
 }
 
-.hover\:via-mycolor:hover {
-  --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-}
-
 .hover\:via-current:hover {
   --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
@@ -6223,10 +6171,6 @@ video {
 
 .hover\:to-transparent:hover {
   --tw-gradient-to: transparent;
-}
-
-.hover\:to-mycolor:hover {
-  --tw-gradient-to: #002233;
 }
 
 .hover\:to-current:hover {
@@ -6572,11 +6516,6 @@ video {
 .focus\:from-transparent:focus {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
-}
-
-.focus\:from-mycolor:focus {
-  --tw-gradient-from: #002233;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
 }
 
 .focus\:from-current:focus {
@@ -7008,10 +6947,6 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
 }
 
-.focus\:via-mycolor:focus {
-  --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-}
-
 .focus\:via-current:focus {
   --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
@@ -7354,10 +7289,6 @@ video {
 
 .focus\:to-transparent:focus {
   --tw-gradient-to: transparent;
-}
-
-.focus\:to-mycolor:focus {
-  --tw-gradient-to: #002233;
 }
 
 .focus\:to-current:focus {
@@ -8084,11 +8015,6 @@ video {
   border-color: transparent;
 }
 
-.border-mycolor {
-  --tw-border-opacity: 1;
-  border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-}
-
 .border-current {
   border-color: currentColor;
 }
@@ -8515,11 +8441,6 @@ video {
 
 .group:hover .group-hover\:border-transparent {
   border-color: transparent;
-}
-
-.group:hover .group-hover\:border-mycolor {
-  --tw-border-opacity: 1;
-  border-color: rgba(0, 34, 51, var(--tw-border-opacity));
 }
 
 .group:hover .group-hover\:border-current {
@@ -8950,11 +8871,6 @@ video {
   border-color: transparent;
 }
 
-.focus-within\:border-mycolor:focus-within {
-  --tw-border-opacity: 1;
-  border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-}
-
 .focus-within\:border-current:focus-within {
   border-color: currentColor;
 }
@@ -9383,11 +9299,6 @@ video {
   border-color: transparent;
 }
 
-.hover\:border-mycolor:hover {
-  --tw-border-opacity: 1;
-  border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-}
-
 .hover\:border-current:hover {
   border-color: currentColor;
 }
@@ -9814,11 +9725,6 @@ video {
 
 .focus\:border-transparent:focus {
   border-color: transparent;
-}
-
-.focus\:border-mycolor:focus {
-  --tw-border-opacity: 1;
-  border-color: rgba(0, 34, 51, var(--tw-border-opacity));
 }
 
 .focus\:border-current:focus {
@@ -15819,11 +15725,6 @@ video {
   color: transparent;
 }
 
-.placeholder-mycolor::placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgba(0, 34, 51, var(--tw-placeholder-opacity));
-}
-
 .placeholder-current::placeholder {
   color: currentColor;
 }
@@ -16250,11 +16151,6 @@ video {
 
 .focus\:placeholder-transparent:focus::placeholder {
   color: transparent;
-}
-
-.focus\:placeholder-mycolor:focus::placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgba(0, 34, 51, var(--tw-placeholder-opacity));
 }
 
 .focus\:placeholder-current:focus::placeholder {
@@ -19987,10 +19883,6 @@ video {
   --tw-ring-offset-color: transparent;
 }
 
-.ring-offset-mycolor {
-  --tw-ring-offset-color: #002233;
-}
-
 .ring-offset-current {
   --tw-ring-offset-color: currentColor;
 }
@@ -20335,10 +20227,6 @@ video {
   --tw-ring-offset-color: transparent;
 }
 
-.focus-within\:ring-offset-mycolor:focus-within {
-  --tw-ring-offset-color: #002233;
-}
-
 .focus-within\:ring-offset-current:focus-within {
   --tw-ring-offset-color: currentColor;
 }
@@ -20681,10 +20569,6 @@ video {
 
 .focus\:ring-offset-transparent:focus {
   --tw-ring-offset-color: transparent;
-}
-
-.focus\:ring-offset-mycolor:focus {
-  --tw-ring-offset-color: #002233;
 }
 
 .focus\:ring-offset-current:focus {
@@ -21089,11 +20973,6 @@ video {
 
 .ring-transparent {
   --tw-ring-color: transparent;
-}
-
-.ring-mycolor {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
 }
 
 .ring-current {
@@ -21524,11 +21403,6 @@ video {
   --tw-ring-color: transparent;
 }
 
-.focus-within\:ring-mycolor:focus-within {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
-}
-
 .focus-within\:ring-current:focus-within {
   --tw-ring-color: currentColor;
 }
@@ -21955,11 +21829,6 @@ video {
 
 .focus\:ring-transparent:focus {
   --tw-ring-color: transparent;
-}
-
-.focus\:ring-mycolor:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
 }
 
 .focus\:ring-current:focus {
@@ -22614,11 +22483,6 @@ video {
   color: transparent;
 }
 
-.text-mycolor {
-  --tw-text-opacity: 1;
-  color: rgba(0, 34, 51, var(--tw-text-opacity));
-}
-
 .text-current {
   color: currentColor;
 }
@@ -23045,11 +22909,6 @@ video {
 
 .group:hover .group-hover\:text-transparent {
   color: transparent;
-}
-
-.group:hover .group-hover\:text-mycolor {
-  --tw-text-opacity: 1;
-  color: rgba(0, 34, 51, var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-current {
@@ -23480,11 +23339,6 @@ video {
   color: transparent;
 }
 
-.focus-within\:text-mycolor:focus-within {
-  --tw-text-opacity: 1;
-  color: rgba(0, 34, 51, var(--tw-text-opacity));
-}
-
 .focus-within\:text-current:focus-within {
   color: currentColor;
 }
@@ -23913,11 +23767,6 @@ video {
   color: transparent;
 }
 
-.hover\:text-mycolor:hover {
-  --tw-text-opacity: 1;
-  color: rgba(0, 34, 51, var(--tw-text-opacity));
-}
-
 .hover\:text-current:hover {
   color: currentColor;
 }
@@ -24344,11 +24193,6 @@ video {
 
 .focus\:text-transparent:focus {
   color: transparent;
-}
-
-.focus\:text-mycolor:focus {
-  --tw-text-opacity: 1;
-  color: rgba(0, 34, 51, var(--tw-text-opacity));
 }
 
 .focus\:text-current:focus {
@@ -29589,7 +29433,7 @@ video {
 }
 
 .animate-spin {
-  animation: spin 1s linear infinite;
+  animation: spin 5s linear infinite;
 }
 
 .animate-ping {
@@ -30559,11 +30403,6 @@ video {
     border-color: transparent;
   }
 
-  .sm\:divide-mycolor > :not([hidden]) ~ :not([hidden]) {
-    --tw-divide-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-divide-opacity));
-  }
-
   .sm\:divide-current > :not([hidden]) ~ :not([hidden]) {
     border-color: currentColor;
   }
@@ -31175,11 +31014,6 @@ video {
     background-color: transparent;
   }
 
-  .sm\:bg-mycolor {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .sm\:bg-current {
     background-color: currentColor;
   }
@@ -31606,11 +31440,6 @@ video {
 
   .group:hover .sm\:group-hover\:bg-transparent {
     background-color: transparent;
-  }
-
-  .group:hover .sm\:group-hover\:bg-mycolor {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
   }
 
   .group:hover .sm\:group-hover\:bg-current {
@@ -32041,11 +31870,6 @@ video {
     background-color: transparent;
   }
 
-  .sm\:focus-within\:bg-mycolor:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .sm\:focus-within\:bg-current:focus-within {
     background-color: currentColor;
   }
@@ -32474,11 +32298,6 @@ video {
     background-color: transparent;
   }
 
-  .sm\:hover\:bg-mycolor:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .sm\:hover\:bg-current:hover {
     background-color: currentColor;
   }
@@ -32905,11 +32724,6 @@ video {
 
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
-  }
-
-  .sm\:focus\:bg-mycolor:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
   }
 
   .sm\:focus\:bg-current:focus {
@@ -33381,11 +33195,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .sm\:from-mycolor {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .sm\:from-current {
     --tw-gradient-from: currentColor;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -33815,10 +33624,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .sm\:via-mycolor {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .sm\:via-current {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -34161,10 +33966,6 @@ video {
 
   .sm\:to-transparent {
     --tw-gradient-to: transparent;
-  }
-
-  .sm\:to-mycolor {
-    --tw-gradient-to: #002233;
   }
 
   .sm\:to-current {
@@ -34510,11 +34311,6 @@ video {
   .sm\:hover\:from-transparent:hover {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
-  }
-
-  .sm\:hover\:from-mycolor:hover {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
   }
 
   .sm\:hover\:from-current:hover {
@@ -34946,10 +34742,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .sm\:hover\:via-mycolor:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .sm\:hover\:via-current:hover {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -35292,10 +35084,6 @@ video {
 
   .sm\:hover\:to-transparent:hover {
     --tw-gradient-to: transparent;
-  }
-
-  .sm\:hover\:to-mycolor:hover {
-    --tw-gradient-to: #002233;
   }
 
   .sm\:hover\:to-current:hover {
@@ -35641,11 +35429,6 @@ video {
   .sm\:focus\:from-transparent:focus {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
-  }
-
-  .sm\:focus\:from-mycolor:focus {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
   }
 
   .sm\:focus\:from-current:focus {
@@ -36077,10 +35860,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .sm\:focus\:via-mycolor:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .sm\:focus\:via-current:focus {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -36423,10 +36202,6 @@ video {
 
   .sm\:focus\:to-transparent:focus {
     --tw-gradient-to: transparent;
-  }
-
-  .sm\:focus\:to-mycolor:focus {
-    --tw-gradient-to: #002233;
   }
 
   .sm\:focus\:to-current:focus {
@@ -37153,11 +36928,6 @@ video {
     border-color: transparent;
   }
 
-  .sm\:border-mycolor {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .sm\:border-current {
     border-color: currentColor;
   }
@@ -37584,11 +37354,6 @@ video {
 
   .group:hover .sm\:group-hover\:border-transparent {
     border-color: transparent;
-  }
-
-  .group:hover .sm\:group-hover\:border-mycolor {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
   }
 
   .group:hover .sm\:group-hover\:border-current {
@@ -38019,11 +37784,6 @@ video {
     border-color: transparent;
   }
 
-  .sm\:focus-within\:border-mycolor:focus-within {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .sm\:focus-within\:border-current:focus-within {
     border-color: currentColor;
   }
@@ -38452,11 +38212,6 @@ video {
     border-color: transparent;
   }
 
-  .sm\:hover\:border-mycolor:hover {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .sm\:hover\:border-current:hover {
     border-color: currentColor;
   }
@@ -38883,11 +38638,6 @@ video {
 
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
-  }
-
-  .sm\:focus\:border-mycolor:focus {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
   }
 
   .sm\:focus\:border-current:focus {
@@ -44888,11 +44638,6 @@ video {
     color: transparent;
   }
 
-  .sm\:placeholder-mycolor::placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-placeholder-opacity));
-  }
-
   .sm\:placeholder-current::placeholder {
     color: currentColor;
   }
@@ -45319,11 +45064,6 @@ video {
 
   .sm\:focus\:placeholder-transparent:focus::placeholder {
     color: transparent;
-  }
-
-  .sm\:focus\:placeholder-mycolor:focus::placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-placeholder-opacity));
   }
 
   .sm\:focus\:placeholder-current:focus::placeholder {
@@ -49043,10 +48783,6 @@ video {
     --tw-ring-offset-color: transparent;
   }
 
-  .sm\:ring-offset-mycolor {
-    --tw-ring-offset-color: #002233;
-  }
-
   .sm\:ring-offset-current {
     --tw-ring-offset-color: currentColor;
   }
@@ -49391,10 +49127,6 @@ video {
     --tw-ring-offset-color: transparent;
   }
 
-  .sm\:focus-within\:ring-offset-mycolor:focus-within {
-    --tw-ring-offset-color: #002233;
-  }
-
   .sm\:focus-within\:ring-offset-current:focus-within {
     --tw-ring-offset-color: currentColor;
   }
@@ -49737,10 +49469,6 @@ video {
 
   .sm\:focus\:ring-offset-transparent:focus {
     --tw-ring-offset-color: transparent;
-  }
-
-  .sm\:focus\:ring-offset-mycolor:focus {
-    --tw-ring-offset-color: #002233;
   }
 
   .sm\:focus\:ring-offset-current:focus {
@@ -50145,11 +49873,6 @@ video {
 
   .sm\:ring-transparent {
     --tw-ring-color: transparent;
-  }
-
-  .sm\:ring-mycolor {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
   }
 
   .sm\:ring-current {
@@ -50580,11 +50303,6 @@ video {
     --tw-ring-color: transparent;
   }
 
-  .sm\:focus-within\:ring-mycolor:focus-within {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
-  }
-
   .sm\:focus-within\:ring-current:focus-within {
     --tw-ring-color: currentColor;
   }
@@ -51011,11 +50729,6 @@ video {
 
   .sm\:focus\:ring-transparent:focus {
     --tw-ring-color: transparent;
-  }
-
-  .sm\:focus\:ring-mycolor:focus {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
   }
 
   .sm\:focus\:ring-current:focus {
@@ -51670,11 +51383,6 @@ video {
     color: transparent;
   }
 
-  .sm\:text-mycolor {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .sm\:text-current {
     color: currentColor;
   }
@@ -52101,11 +51809,6 @@ video {
 
   .group:hover .sm\:group-hover\:text-transparent {
     color: transparent;
-  }
-
-  .group:hover .sm\:group-hover\:text-mycolor {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
   }
 
   .group:hover .sm\:group-hover\:text-current {
@@ -52536,11 +52239,6 @@ video {
     color: transparent;
   }
 
-  .sm\:focus-within\:text-mycolor:focus-within {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .sm\:focus-within\:text-current:focus-within {
     color: currentColor;
   }
@@ -52969,11 +52667,6 @@ video {
     color: transparent;
   }
 
-  .sm\:hover\:text-mycolor:hover {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .sm\:hover\:text-current:hover {
     color: currentColor;
   }
@@ -53400,11 +53093,6 @@ video {
 
   .sm\:focus\:text-transparent:focus {
     color: transparent;
-  }
-
-  .sm\:focus\:text-mycolor:focus {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
   }
 
   .sm\:focus\:text-current:focus {
@@ -58614,7 +58302,7 @@ video {
   }
 
   .sm\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin 5s linear infinite;
   }
 
   .sm\:animate-ping {
@@ -59585,11 +59273,6 @@ video {
     border-color: transparent;
   }
 
-  .md\:divide-mycolor > :not([hidden]) ~ :not([hidden]) {
-    --tw-divide-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-divide-opacity));
-  }
-
   .md\:divide-current > :not([hidden]) ~ :not([hidden]) {
     border-color: currentColor;
   }
@@ -60201,11 +59884,6 @@ video {
     background-color: transparent;
   }
 
-  .md\:bg-mycolor {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .md\:bg-current {
     background-color: currentColor;
   }
@@ -60632,11 +60310,6 @@ video {
 
   .group:hover .md\:group-hover\:bg-transparent {
     background-color: transparent;
-  }
-
-  .group:hover .md\:group-hover\:bg-mycolor {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
   }
 
   .group:hover .md\:group-hover\:bg-current {
@@ -61067,11 +60740,6 @@ video {
     background-color: transparent;
   }
 
-  .md\:focus-within\:bg-mycolor:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .md\:focus-within\:bg-current:focus-within {
     background-color: currentColor;
   }
@@ -61500,11 +61168,6 @@ video {
     background-color: transparent;
   }
 
-  .md\:hover\:bg-mycolor:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .md\:hover\:bg-current:hover {
     background-color: currentColor;
   }
@@ -61931,11 +61594,6 @@ video {
 
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
-  }
-
-  .md\:focus\:bg-mycolor:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
   }
 
   .md\:focus\:bg-current:focus {
@@ -62407,11 +62065,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .md\:from-mycolor {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .md\:from-current {
     --tw-gradient-from: currentColor;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -62841,10 +62494,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .md\:via-mycolor {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .md\:via-current {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -63187,10 +62836,6 @@ video {
 
   .md\:to-transparent {
     --tw-gradient-to: transparent;
-  }
-
-  .md\:to-mycolor {
-    --tw-gradient-to: #002233;
   }
 
   .md\:to-current {
@@ -63536,11 +63181,6 @@ video {
   .md\:hover\:from-transparent:hover {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
-  }
-
-  .md\:hover\:from-mycolor:hover {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
   }
 
   .md\:hover\:from-current:hover {
@@ -63972,10 +63612,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .md\:hover\:via-mycolor:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .md\:hover\:via-current:hover {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -64318,10 +63954,6 @@ video {
 
   .md\:hover\:to-transparent:hover {
     --tw-gradient-to: transparent;
-  }
-
-  .md\:hover\:to-mycolor:hover {
-    --tw-gradient-to: #002233;
   }
 
   .md\:hover\:to-current:hover {
@@ -64667,11 +64299,6 @@ video {
   .md\:focus\:from-transparent:focus {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
-  }
-
-  .md\:focus\:from-mycolor:focus {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
   }
 
   .md\:focus\:from-current:focus {
@@ -65103,10 +64730,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .md\:focus\:via-mycolor:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .md\:focus\:via-current:focus {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -65449,10 +65072,6 @@ video {
 
   .md\:focus\:to-transparent:focus {
     --tw-gradient-to: transparent;
-  }
-
-  .md\:focus\:to-mycolor:focus {
-    --tw-gradient-to: #002233;
   }
 
   .md\:focus\:to-current:focus {
@@ -66179,11 +65798,6 @@ video {
     border-color: transparent;
   }
 
-  .md\:border-mycolor {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .md\:border-current {
     border-color: currentColor;
   }
@@ -66610,11 +66224,6 @@ video {
 
   .group:hover .md\:group-hover\:border-transparent {
     border-color: transparent;
-  }
-
-  .group:hover .md\:group-hover\:border-mycolor {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
   }
 
   .group:hover .md\:group-hover\:border-current {
@@ -67045,11 +66654,6 @@ video {
     border-color: transparent;
   }
 
-  .md\:focus-within\:border-mycolor:focus-within {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .md\:focus-within\:border-current:focus-within {
     border-color: currentColor;
   }
@@ -67478,11 +67082,6 @@ video {
     border-color: transparent;
   }
 
-  .md\:hover\:border-mycolor:hover {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .md\:hover\:border-current:hover {
     border-color: currentColor;
   }
@@ -67909,11 +67508,6 @@ video {
 
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
-  }
-
-  .md\:focus\:border-mycolor:focus {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
   }
 
   .md\:focus\:border-current:focus {
@@ -73914,11 +73508,6 @@ video {
     color: transparent;
   }
 
-  .md\:placeholder-mycolor::placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-placeholder-opacity));
-  }
-
   .md\:placeholder-current::placeholder {
     color: currentColor;
   }
@@ -74345,11 +73934,6 @@ video {
 
   .md\:focus\:placeholder-transparent:focus::placeholder {
     color: transparent;
-  }
-
-  .md\:focus\:placeholder-mycolor:focus::placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-placeholder-opacity));
   }
 
   .md\:focus\:placeholder-current:focus::placeholder {
@@ -78069,10 +77653,6 @@ video {
     --tw-ring-offset-color: transparent;
   }
 
-  .md\:ring-offset-mycolor {
-    --tw-ring-offset-color: #002233;
-  }
-
   .md\:ring-offset-current {
     --tw-ring-offset-color: currentColor;
   }
@@ -78417,10 +77997,6 @@ video {
     --tw-ring-offset-color: transparent;
   }
 
-  .md\:focus-within\:ring-offset-mycolor:focus-within {
-    --tw-ring-offset-color: #002233;
-  }
-
   .md\:focus-within\:ring-offset-current:focus-within {
     --tw-ring-offset-color: currentColor;
   }
@@ -78763,10 +78339,6 @@ video {
 
   .md\:focus\:ring-offset-transparent:focus {
     --tw-ring-offset-color: transparent;
-  }
-
-  .md\:focus\:ring-offset-mycolor:focus {
-    --tw-ring-offset-color: #002233;
   }
 
   .md\:focus\:ring-offset-current:focus {
@@ -79171,11 +78743,6 @@ video {
 
   .md\:ring-transparent {
     --tw-ring-color: transparent;
-  }
-
-  .md\:ring-mycolor {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
   }
 
   .md\:ring-current {
@@ -79606,11 +79173,6 @@ video {
     --tw-ring-color: transparent;
   }
 
-  .md\:focus-within\:ring-mycolor:focus-within {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
-  }
-
   .md\:focus-within\:ring-current:focus-within {
     --tw-ring-color: currentColor;
   }
@@ -80037,11 +79599,6 @@ video {
 
   .md\:focus\:ring-transparent:focus {
     --tw-ring-color: transparent;
-  }
-
-  .md\:focus\:ring-mycolor:focus {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
   }
 
   .md\:focus\:ring-current:focus {
@@ -80696,11 +80253,6 @@ video {
     color: transparent;
   }
 
-  .md\:text-mycolor {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .md\:text-current {
     color: currentColor;
   }
@@ -81127,11 +80679,6 @@ video {
 
   .group:hover .md\:group-hover\:text-transparent {
     color: transparent;
-  }
-
-  .group:hover .md\:group-hover\:text-mycolor {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
   }
 
   .group:hover .md\:group-hover\:text-current {
@@ -81562,11 +81109,6 @@ video {
     color: transparent;
   }
 
-  .md\:focus-within\:text-mycolor:focus-within {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .md\:focus-within\:text-current:focus-within {
     color: currentColor;
   }
@@ -81995,11 +81537,6 @@ video {
     color: transparent;
   }
 
-  .md\:hover\:text-mycolor:hover {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .md\:hover\:text-current:hover {
     color: currentColor;
   }
@@ -82426,11 +81963,6 @@ video {
 
   .md\:focus\:text-transparent:focus {
     color: transparent;
-  }
-
-  .md\:focus\:text-mycolor:focus {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
   }
 
   .md\:focus\:text-current:focus {
@@ -87640,7 +87172,7 @@ video {
   }
 
   .md\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin 5s linear infinite;
   }
 
   .md\:animate-ping {
@@ -88611,11 +88143,6 @@ video {
     border-color: transparent;
   }
 
-  .lg\:divide-mycolor > :not([hidden]) ~ :not([hidden]) {
-    --tw-divide-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-divide-opacity));
-  }
-
   .lg\:divide-current > :not([hidden]) ~ :not([hidden]) {
     border-color: currentColor;
   }
@@ -89227,11 +88754,6 @@ video {
     background-color: transparent;
   }
 
-  .lg\:bg-mycolor {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .lg\:bg-current {
     background-color: currentColor;
   }
@@ -89658,11 +89180,6 @@ video {
 
   .group:hover .lg\:group-hover\:bg-transparent {
     background-color: transparent;
-  }
-
-  .group:hover .lg\:group-hover\:bg-mycolor {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
   }
 
   .group:hover .lg\:group-hover\:bg-current {
@@ -90093,11 +89610,6 @@ video {
     background-color: transparent;
   }
 
-  .lg\:focus-within\:bg-mycolor:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .lg\:focus-within\:bg-current:focus-within {
     background-color: currentColor;
   }
@@ -90526,11 +90038,6 @@ video {
     background-color: transparent;
   }
 
-  .lg\:hover\:bg-mycolor:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .lg\:hover\:bg-current:hover {
     background-color: currentColor;
   }
@@ -90957,11 +90464,6 @@ video {
 
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
-  }
-
-  .lg\:focus\:bg-mycolor:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
   }
 
   .lg\:focus\:bg-current:focus {
@@ -91433,11 +90935,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .lg\:from-mycolor {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .lg\:from-current {
     --tw-gradient-from: currentColor;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -91867,10 +91364,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .lg\:via-mycolor {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .lg\:via-current {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -92213,10 +91706,6 @@ video {
 
   .lg\:to-transparent {
     --tw-gradient-to: transparent;
-  }
-
-  .lg\:to-mycolor {
-    --tw-gradient-to: #002233;
   }
 
   .lg\:to-current {
@@ -92562,11 +92051,6 @@ video {
   .lg\:hover\:from-transparent:hover {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
-  }
-
-  .lg\:hover\:from-mycolor:hover {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
   }
 
   .lg\:hover\:from-current:hover {
@@ -92998,10 +92482,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .lg\:hover\:via-mycolor:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .lg\:hover\:via-current:hover {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -93344,10 +92824,6 @@ video {
 
   .lg\:hover\:to-transparent:hover {
     --tw-gradient-to: transparent;
-  }
-
-  .lg\:hover\:to-mycolor:hover {
-    --tw-gradient-to: #002233;
   }
 
   .lg\:hover\:to-current:hover {
@@ -93693,11 +93169,6 @@ video {
   .lg\:focus\:from-transparent:focus {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
-  }
-
-  .lg\:focus\:from-mycolor:focus {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
   }
 
   .lg\:focus\:from-current:focus {
@@ -94129,10 +93600,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .lg\:focus\:via-mycolor:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .lg\:focus\:via-current:focus {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -94475,10 +93942,6 @@ video {
 
   .lg\:focus\:to-transparent:focus {
     --tw-gradient-to: transparent;
-  }
-
-  .lg\:focus\:to-mycolor:focus {
-    --tw-gradient-to: #002233;
   }
 
   .lg\:focus\:to-current:focus {
@@ -95205,11 +94668,6 @@ video {
     border-color: transparent;
   }
 
-  .lg\:border-mycolor {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .lg\:border-current {
     border-color: currentColor;
   }
@@ -95636,11 +95094,6 @@ video {
 
   .group:hover .lg\:group-hover\:border-transparent {
     border-color: transparent;
-  }
-
-  .group:hover .lg\:group-hover\:border-mycolor {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
   }
 
   .group:hover .lg\:group-hover\:border-current {
@@ -96071,11 +95524,6 @@ video {
     border-color: transparent;
   }
 
-  .lg\:focus-within\:border-mycolor:focus-within {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .lg\:focus-within\:border-current:focus-within {
     border-color: currentColor;
   }
@@ -96504,11 +95952,6 @@ video {
     border-color: transparent;
   }
 
-  .lg\:hover\:border-mycolor:hover {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .lg\:hover\:border-current:hover {
     border-color: currentColor;
   }
@@ -96935,11 +96378,6 @@ video {
 
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
-  }
-
-  .lg\:focus\:border-mycolor:focus {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
   }
 
   .lg\:focus\:border-current:focus {
@@ -102940,11 +102378,6 @@ video {
     color: transparent;
   }
 
-  .lg\:placeholder-mycolor::placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-placeholder-opacity));
-  }
-
   .lg\:placeholder-current::placeholder {
     color: currentColor;
   }
@@ -103371,11 +102804,6 @@ video {
 
   .lg\:focus\:placeholder-transparent:focus::placeholder {
     color: transparent;
-  }
-
-  .lg\:focus\:placeholder-mycolor:focus::placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-placeholder-opacity));
   }
 
   .lg\:focus\:placeholder-current:focus::placeholder {
@@ -107095,10 +106523,6 @@ video {
     --tw-ring-offset-color: transparent;
   }
 
-  .lg\:ring-offset-mycolor {
-    --tw-ring-offset-color: #002233;
-  }
-
   .lg\:ring-offset-current {
     --tw-ring-offset-color: currentColor;
   }
@@ -107443,10 +106867,6 @@ video {
     --tw-ring-offset-color: transparent;
   }
 
-  .lg\:focus-within\:ring-offset-mycolor:focus-within {
-    --tw-ring-offset-color: #002233;
-  }
-
   .lg\:focus-within\:ring-offset-current:focus-within {
     --tw-ring-offset-color: currentColor;
   }
@@ -107789,10 +107209,6 @@ video {
 
   .lg\:focus\:ring-offset-transparent:focus {
     --tw-ring-offset-color: transparent;
-  }
-
-  .lg\:focus\:ring-offset-mycolor:focus {
-    --tw-ring-offset-color: #002233;
   }
 
   .lg\:focus\:ring-offset-current:focus {
@@ -108197,11 +107613,6 @@ video {
 
   .lg\:ring-transparent {
     --tw-ring-color: transparent;
-  }
-
-  .lg\:ring-mycolor {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
   }
 
   .lg\:ring-current {
@@ -108632,11 +108043,6 @@ video {
     --tw-ring-color: transparent;
   }
 
-  .lg\:focus-within\:ring-mycolor:focus-within {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
-  }
-
   .lg\:focus-within\:ring-current:focus-within {
     --tw-ring-color: currentColor;
   }
@@ -109063,11 +108469,6 @@ video {
 
   .lg\:focus\:ring-transparent:focus {
     --tw-ring-color: transparent;
-  }
-
-  .lg\:focus\:ring-mycolor:focus {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
   }
 
   .lg\:focus\:ring-current:focus {
@@ -109722,11 +109123,6 @@ video {
     color: transparent;
   }
 
-  .lg\:text-mycolor {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .lg\:text-current {
     color: currentColor;
   }
@@ -110153,11 +109549,6 @@ video {
 
   .group:hover .lg\:group-hover\:text-transparent {
     color: transparent;
-  }
-
-  .group:hover .lg\:group-hover\:text-mycolor {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
   }
 
   .group:hover .lg\:group-hover\:text-current {
@@ -110588,11 +109979,6 @@ video {
     color: transparent;
   }
 
-  .lg\:focus-within\:text-mycolor:focus-within {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .lg\:focus-within\:text-current:focus-within {
     color: currentColor;
   }
@@ -111021,11 +110407,6 @@ video {
     color: transparent;
   }
 
-  .lg\:hover\:text-mycolor:hover {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .lg\:hover\:text-current:hover {
     color: currentColor;
   }
@@ -111452,11 +110833,6 @@ video {
 
   .lg\:focus\:text-transparent:focus {
     color: transparent;
-  }
-
-  .lg\:focus\:text-mycolor:focus {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
   }
 
   .lg\:focus\:text-current:focus {
@@ -116666,7 +116042,7 @@ video {
   }
 
   .lg\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin 5s linear infinite;
   }
 
   .lg\:animate-ping {
@@ -117637,11 +117013,6 @@ video {
     border-color: transparent;
   }
 
-  .xl\:divide-mycolor > :not([hidden]) ~ :not([hidden]) {
-    --tw-divide-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-divide-opacity));
-  }
-
   .xl\:divide-current > :not([hidden]) ~ :not([hidden]) {
     border-color: currentColor;
   }
@@ -118253,11 +117624,6 @@ video {
     background-color: transparent;
   }
 
-  .xl\:bg-mycolor {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .xl\:bg-current {
     background-color: currentColor;
   }
@@ -118684,11 +118050,6 @@ video {
 
   .group:hover .xl\:group-hover\:bg-transparent {
     background-color: transparent;
-  }
-
-  .group:hover .xl\:group-hover\:bg-mycolor {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
   }
 
   .group:hover .xl\:group-hover\:bg-current {
@@ -119119,11 +118480,6 @@ video {
     background-color: transparent;
   }
 
-  .xl\:focus-within\:bg-mycolor:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .xl\:focus-within\:bg-current:focus-within {
     background-color: currentColor;
   }
@@ -119552,11 +118908,6 @@ video {
     background-color: transparent;
   }
 
-  .xl\:hover\:bg-mycolor:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .xl\:hover\:bg-current:hover {
     background-color: currentColor;
   }
@@ -119983,11 +119334,6 @@ video {
 
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
-  }
-
-  .xl\:focus\:bg-mycolor:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
   }
 
   .xl\:focus\:bg-current:focus {
@@ -120459,11 +119805,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .xl\:from-mycolor {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .xl\:from-current {
     --tw-gradient-from: currentColor;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -120893,10 +120234,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .xl\:via-mycolor {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .xl\:via-current {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -121239,10 +120576,6 @@ video {
 
   .xl\:to-transparent {
     --tw-gradient-to: transparent;
-  }
-
-  .xl\:to-mycolor {
-    --tw-gradient-to: #002233;
   }
 
   .xl\:to-current {
@@ -121588,11 +120921,6 @@ video {
   .xl\:hover\:from-transparent:hover {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
-  }
-
-  .xl\:hover\:from-mycolor:hover {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
   }
 
   .xl\:hover\:from-current:hover {
@@ -122024,10 +121352,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .xl\:hover\:via-mycolor:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .xl\:hover\:via-current:hover {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -122370,10 +121694,6 @@ video {
 
   .xl\:hover\:to-transparent:hover {
     --tw-gradient-to: transparent;
-  }
-
-  .xl\:hover\:to-mycolor:hover {
-    --tw-gradient-to: #002233;
   }
 
   .xl\:hover\:to-current:hover {
@@ -122719,11 +122039,6 @@ video {
   .xl\:focus\:from-transparent:focus {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
-  }
-
-  .xl\:focus\:from-mycolor:focus {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
   }
 
   .xl\:focus\:from-current:focus {
@@ -123155,10 +122470,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .xl\:focus\:via-mycolor:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .xl\:focus\:via-current:focus {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -123501,10 +122812,6 @@ video {
 
   .xl\:focus\:to-transparent:focus {
     --tw-gradient-to: transparent;
-  }
-
-  .xl\:focus\:to-mycolor:focus {
-    --tw-gradient-to: #002233;
   }
 
   .xl\:focus\:to-current:focus {
@@ -124231,11 +123538,6 @@ video {
     border-color: transparent;
   }
 
-  .xl\:border-mycolor {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .xl\:border-current {
     border-color: currentColor;
   }
@@ -124662,11 +123964,6 @@ video {
 
   .group:hover .xl\:group-hover\:border-transparent {
     border-color: transparent;
-  }
-
-  .group:hover .xl\:group-hover\:border-mycolor {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
   }
 
   .group:hover .xl\:group-hover\:border-current {
@@ -125097,11 +124394,6 @@ video {
     border-color: transparent;
   }
 
-  .xl\:focus-within\:border-mycolor:focus-within {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .xl\:focus-within\:border-current:focus-within {
     border-color: currentColor;
   }
@@ -125530,11 +124822,6 @@ video {
     border-color: transparent;
   }
 
-  .xl\:hover\:border-mycolor:hover {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .xl\:hover\:border-current:hover {
     border-color: currentColor;
   }
@@ -125961,11 +125248,6 @@ video {
 
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
-  }
-
-  .xl\:focus\:border-mycolor:focus {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
   }
 
   .xl\:focus\:border-current:focus {
@@ -131966,11 +131248,6 @@ video {
     color: transparent;
   }
 
-  .xl\:placeholder-mycolor::placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-placeholder-opacity));
-  }
-
   .xl\:placeholder-current::placeholder {
     color: currentColor;
   }
@@ -132397,11 +131674,6 @@ video {
 
   .xl\:focus\:placeholder-transparent:focus::placeholder {
     color: transparent;
-  }
-
-  .xl\:focus\:placeholder-mycolor:focus::placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-placeholder-opacity));
   }
 
   .xl\:focus\:placeholder-current:focus::placeholder {
@@ -136121,10 +135393,6 @@ video {
     --tw-ring-offset-color: transparent;
   }
 
-  .xl\:ring-offset-mycolor {
-    --tw-ring-offset-color: #002233;
-  }
-
   .xl\:ring-offset-current {
     --tw-ring-offset-color: currentColor;
   }
@@ -136469,10 +135737,6 @@ video {
     --tw-ring-offset-color: transparent;
   }
 
-  .xl\:focus-within\:ring-offset-mycolor:focus-within {
-    --tw-ring-offset-color: #002233;
-  }
-
   .xl\:focus-within\:ring-offset-current:focus-within {
     --tw-ring-offset-color: currentColor;
   }
@@ -136815,10 +136079,6 @@ video {
 
   .xl\:focus\:ring-offset-transparent:focus {
     --tw-ring-offset-color: transparent;
-  }
-
-  .xl\:focus\:ring-offset-mycolor:focus {
-    --tw-ring-offset-color: #002233;
   }
 
   .xl\:focus\:ring-offset-current:focus {
@@ -137223,11 +136483,6 @@ video {
 
   .xl\:ring-transparent {
     --tw-ring-color: transparent;
-  }
-
-  .xl\:ring-mycolor {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
   }
 
   .xl\:ring-current {
@@ -137658,11 +136913,6 @@ video {
     --tw-ring-color: transparent;
   }
 
-  .xl\:focus-within\:ring-mycolor:focus-within {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
-  }
-
   .xl\:focus-within\:ring-current:focus-within {
     --tw-ring-color: currentColor;
   }
@@ -138089,11 +137339,6 @@ video {
 
   .xl\:focus\:ring-transparent:focus {
     --tw-ring-color: transparent;
-  }
-
-  .xl\:focus\:ring-mycolor:focus {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
   }
 
   .xl\:focus\:ring-current:focus {
@@ -138748,11 +137993,6 @@ video {
     color: transparent;
   }
 
-  .xl\:text-mycolor {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .xl\:text-current {
     color: currentColor;
   }
@@ -139179,11 +138419,6 @@ video {
 
   .group:hover .xl\:group-hover\:text-transparent {
     color: transparent;
-  }
-
-  .group:hover .xl\:group-hover\:text-mycolor {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
   }
 
   .group:hover .xl\:group-hover\:text-current {
@@ -139614,11 +138849,6 @@ video {
     color: transparent;
   }
 
-  .xl\:focus-within\:text-mycolor:focus-within {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .xl\:focus-within\:text-current:focus-within {
     color: currentColor;
   }
@@ -140047,11 +139277,6 @@ video {
     color: transparent;
   }
 
-  .xl\:hover\:text-mycolor:hover {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .xl\:hover\:text-current:hover {
     color: currentColor;
   }
@@ -140478,11 +139703,6 @@ video {
 
   .xl\:focus\:text-transparent:focus {
     color: transparent;
-  }
-
-  .xl\:focus\:text-mycolor:focus {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
   }
 
   .xl\:focus\:text-current:focus {
@@ -145692,7 +144912,7 @@ video {
   }
 
   .xl\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin 5s linear infinite;
   }
 
   .xl\:animate-ping {
@@ -146663,11 +145883,6 @@ video {
     border-color: transparent;
   }
 
-  .\32xl\:divide-mycolor > :not([hidden]) ~ :not([hidden]) {
-    --tw-divide-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-divide-opacity));
-  }
-
   .\32xl\:divide-current > :not([hidden]) ~ :not([hidden]) {
     border-color: currentColor;
   }
@@ -147279,11 +146494,6 @@ video {
     background-color: transparent;
   }
 
-  .\32xl\:bg-mycolor {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .\32xl\:bg-current {
     background-color: currentColor;
   }
@@ -147710,11 +146920,6 @@ video {
 
   .group:hover .\32xl\:group-hover\:bg-transparent {
     background-color: transparent;
-  }
-
-  .group:hover .\32xl\:group-hover\:bg-mycolor {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:bg-current {
@@ -148145,11 +147350,6 @@ video {
     background-color: transparent;
   }
 
-  .\32xl\:focus-within\:bg-mycolor:focus-within {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .\32xl\:focus-within\:bg-current:focus-within {
     background-color: currentColor;
   }
@@ -148578,11 +147778,6 @@ video {
     background-color: transparent;
   }
 
-  .\32xl\:hover\:bg-mycolor:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
-  }
-
   .\32xl\:hover\:bg-current:hover {
     background-color: currentColor;
   }
@@ -149009,11 +148204,6 @@ video {
 
   .\32xl\:focus\:bg-transparent:focus {
     background-color: transparent;
-  }
-
-  .\32xl\:focus\:bg-mycolor:focus {
-    --tw-bg-opacity: 1;
-    background-color: rgba(0, 34, 51, var(--tw-bg-opacity));
   }
 
   .\32xl\:focus\:bg-current:focus {
@@ -149485,11 +148675,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .\32xl\:from-mycolor {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .\32xl\:from-current {
     --tw-gradient-from: currentColor;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
@@ -149919,10 +149104,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .\32xl\:via-mycolor {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .\32xl\:via-current {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -150265,10 +149446,6 @@ video {
 
   .\32xl\:to-transparent {
     --tw-gradient-to: transparent;
-  }
-
-  .\32xl\:to-mycolor {
-    --tw-gradient-to: #002233;
   }
 
   .\32xl\:to-current {
@@ -150614,11 +149791,6 @@ video {
   .\32xl\:hover\:from-transparent:hover {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
-  }
-
-  .\32xl\:hover\:from-mycolor:hover {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
   }
 
   .\32xl\:hover\:from-current:hover {
@@ -151050,10 +150222,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .\32xl\:hover\:via-mycolor:hover {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .\32xl\:hover\:via-current:hover {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -151396,10 +150564,6 @@ video {
 
   .\32xl\:hover\:to-transparent:hover {
     --tw-gradient-to: transparent;
-  }
-
-  .\32xl\:hover\:to-mycolor:hover {
-    --tw-gradient-to: #002233;
   }
 
   .\32xl\:hover\:to-current:hover {
@@ -151745,11 +150909,6 @@ video {
   .\32xl\:focus\:from-transparent:focus {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
-  }
-
-  .\32xl\:focus\:from-mycolor:focus {
-    --tw-gradient-from: #002233;
-    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 34, 51, 0));
   }
 
   .\32xl\:focus\:from-current:focus {
@@ -152181,10 +151340,6 @@ video {
     --tw-gradient-stops: var(--tw-gradient-from), transparent, var(--tw-gradient-to, rgba(0, 0, 0, 0));
   }
 
-  .\32xl\:focus\:via-mycolor:focus {
-    --tw-gradient-stops: var(--tw-gradient-from), #002233, var(--tw-gradient-to, rgba(0, 34, 51, 0));
-  }
-
   .\32xl\:focus\:via-current:focus {
     --tw-gradient-stops: var(--tw-gradient-from), currentColor, var(--tw-gradient-to, rgba(255, 255, 255, 0));
   }
@@ -152527,10 +151682,6 @@ video {
 
   .\32xl\:focus\:to-transparent:focus {
     --tw-gradient-to: transparent;
-  }
-
-  .\32xl\:focus\:to-mycolor:focus {
-    --tw-gradient-to: #002233;
   }
 
   .\32xl\:focus\:to-current:focus {
@@ -153257,11 +152408,6 @@ video {
     border-color: transparent;
   }
 
-  .\32xl\:border-mycolor {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .\32xl\:border-current {
     border-color: currentColor;
   }
@@ -153688,11 +152834,6 @@ video {
 
   .group:hover .\32xl\:group-hover\:border-transparent {
     border-color: transparent;
-  }
-
-  .group:hover .\32xl\:group-hover\:border-mycolor {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:border-current {
@@ -154123,11 +153264,6 @@ video {
     border-color: transparent;
   }
 
-  .\32xl\:focus-within\:border-mycolor:focus-within {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .\32xl\:focus-within\:border-current:focus-within {
     border-color: currentColor;
   }
@@ -154556,11 +153692,6 @@ video {
     border-color: transparent;
   }
 
-  .\32xl\:hover\:border-mycolor:hover {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
-  }
-
   .\32xl\:hover\:border-current:hover {
     border-color: currentColor;
   }
@@ -154987,11 +154118,6 @@ video {
 
   .\32xl\:focus\:border-transparent:focus {
     border-color: transparent;
-  }
-
-  .\32xl\:focus\:border-mycolor:focus {
-    --tw-border-opacity: 1;
-    border-color: rgba(0, 34, 51, var(--tw-border-opacity));
   }
 
   .\32xl\:focus\:border-current:focus {
@@ -160992,11 +160118,6 @@ video {
     color: transparent;
   }
 
-  .\32xl\:placeholder-mycolor::placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-placeholder-opacity));
-  }
-
   .\32xl\:placeholder-current::placeholder {
     color: currentColor;
   }
@@ -161423,11 +160544,6 @@ video {
 
   .\32xl\:focus\:placeholder-transparent:focus::placeholder {
     color: transparent;
-  }
-
-  .\32xl\:focus\:placeholder-mycolor:focus::placeholder {
-    --tw-placeholder-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-placeholder-opacity));
   }
 
   .\32xl\:focus\:placeholder-current:focus::placeholder {
@@ -165147,10 +164263,6 @@ video {
     --tw-ring-offset-color: transparent;
   }
 
-  .\32xl\:ring-offset-mycolor {
-    --tw-ring-offset-color: #002233;
-  }
-
   .\32xl\:ring-offset-current {
     --tw-ring-offset-color: currentColor;
   }
@@ -165495,10 +164607,6 @@ video {
     --tw-ring-offset-color: transparent;
   }
 
-  .\32xl\:focus-within\:ring-offset-mycolor:focus-within {
-    --tw-ring-offset-color: #002233;
-  }
-
   .\32xl\:focus-within\:ring-offset-current:focus-within {
     --tw-ring-offset-color: currentColor;
   }
@@ -165841,10 +164949,6 @@ video {
 
   .\32xl\:focus\:ring-offset-transparent:focus {
     --tw-ring-offset-color: transparent;
-  }
-
-  .\32xl\:focus\:ring-offset-mycolor:focus {
-    --tw-ring-offset-color: #002233;
   }
 
   .\32xl\:focus\:ring-offset-current:focus {
@@ -166249,11 +165353,6 @@ video {
 
   .\32xl\:ring-transparent {
     --tw-ring-color: transparent;
-  }
-
-  .\32xl\:ring-mycolor {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
   }
 
   .\32xl\:ring-current {
@@ -166684,11 +165783,6 @@ video {
     --tw-ring-color: transparent;
   }
 
-  .\32xl\:focus-within\:ring-mycolor:focus-within {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
-  }
-
   .\32xl\:focus-within\:ring-current:focus-within {
     --tw-ring-color: currentColor;
   }
@@ -167115,11 +166209,6 @@ video {
 
   .\32xl\:focus\:ring-transparent:focus {
     --tw-ring-color: transparent;
-  }
-
-  .\32xl\:focus\:ring-mycolor:focus {
-    --tw-ring-opacity: 1;
-    --tw-ring-color: rgba(0, 34, 51, var(--tw-ring-opacity));
   }
 
   .\32xl\:focus\:ring-current:focus {
@@ -167774,11 +166863,6 @@ video {
     color: transparent;
   }
 
-  .\32xl\:text-mycolor {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .\32xl\:text-current {
     color: currentColor;
   }
@@ -168205,11 +167289,6 @@ video {
 
   .group:hover .\32xl\:group-hover\:text-transparent {
     color: transparent;
-  }
-
-  .group:hover .\32xl\:group-hover\:text-mycolor {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
   }
 
   .group:hover .\32xl\:group-hover\:text-current {
@@ -168640,11 +167719,6 @@ video {
     color: transparent;
   }
 
-  .\32xl\:focus-within\:text-mycolor:focus-within {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .\32xl\:focus-within\:text-current:focus-within {
     color: currentColor;
   }
@@ -169073,11 +168147,6 @@ video {
     color: transparent;
   }
 
-  .\32xl\:hover\:text-mycolor:hover {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
-  }
-
   .\32xl\:hover\:text-current:hover {
     color: currentColor;
   }
@@ -169504,11 +168573,6 @@ video {
 
   .\32xl\:focus\:text-transparent:focus {
     color: transparent;
-  }
-
-  .\32xl\:focus\:text-mycolor:focus {
-    --tw-text-opacity: 1;
-    color: rgba(0, 34, 51, var(--tw-text-opacity));
   }
 
   .\32xl\:focus\:text-current:focus {
@@ -174718,7 +173782,7 @@ video {
   }
 
   .\32xl\:animate-spin {
-    animation: spin 1s linear infinite;
+    animation: spin 5s linear infinite;
   }
 
   .\32xl\:animate-ping {
