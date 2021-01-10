@@ -3,7 +3,7 @@ import React from "react";
 function Tab(props) {
   return (
     <>
-      <tr className="flex flex-col md:table-row border-t border-mainblue">
+      <tr className="flex flex-col md:w-max md:mx-auto md:table-row border-t border-mainblue">
         <td className="border-r px-2 border-mainblue">{props.id}</td>
         <td className="border-r px-2 border-mainblue">{props.name}</td>
         <td className="border-r px-2 border-mainblue">{props.deg}</td>

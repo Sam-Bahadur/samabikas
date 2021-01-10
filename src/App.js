@@ -11,17 +11,16 @@ import Vision from "./components/AboutUs/Vision/Vision";
 import Governance from "./components/AboutUs/Governance/Governance";
 import WhoAreWe from "./components/AboutUs/WhoAreWe/WhoAreWe";
 import UnderConstruction from "./components/UnderConstruction/UnderConstruction";
+import Ngo from "./components/Partnership/Ngo";
+import Ingos from "./components/Partnership/Ingos";
+import Gov from "./components/Partnership/Gov";
 
 function App() {
   return (
     <>
-      <div className="bg-red-600 mx-auto text-center text-white">
-        *Website still under construction
-      </div>
       <Navbar />
       <div style={{ width: "80%", margin: "0 auto" }}>
         <NavbarTwo />
-        {/* <UnderConstruction /> */}
       </div>
       <div className="min-h-screen" style={{ width: "80%", margin: "0 auto" }}>
         <Switch>
@@ -30,6 +29,9 @@ function App() {
           <Route exact path="/notice" component={Notice} />
           <Route exact path="/about/vision" component={Vision} />
           <Route exact path="/about/governance" component={Governance} />
+          <Route exact path="/Partnership/NGOs" component={Ngo} />
+          <Route exact path="/Partnership/INGOs" component={Ingos} />
+          <Route exact path="/Partnership/gov" component={Gov} />
           <Route exact path="/about/whoarewe" component={WhoAreWe} />
           <Route exact path="/" component={Home} />
           <Route exact component={UnderConstruction} />

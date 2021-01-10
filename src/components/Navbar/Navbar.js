@@ -29,16 +29,16 @@ export default function Navbar() {
     <div
       className={style.aboutus}
       // className="z-50 absolute top-12 left-20 bg-mainblue p-4 cursor-pointer"
-      onMouseEnter={() => setpartnershipClicked(false)}
+      onMouseEnter={() => setpartnershipClicked(true)}
       onMouseLeave={() => setpartnershipClicked(false)}
     >
-      <Link to="">
+      <Link to="/Partnership/NGOsa">
         <li>Partnership with NGOs</li>
       </Link>
-      <Link to="">
+      <Link to="/Partnership/INGOsa">
         <li>Partnership with INGOs</li>
       </Link>
-      <Link to="">
+      <Link to="/Partnership/gova">
         <li>Partnership with Government</li>
       </Link>
     </div>
@@ -51,33 +51,38 @@ export default function Navbar() {
             home
           </li>
         </Link>
-        <li
-          className={
-            aboutUsClicked
-              ? "mx-1 w-max p-2 bg-blue-800 border-radi relative  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
-              : "mx-1 w-max p-2 border-radi relative  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
-          }
-          onMouseEnter={() => setaboutUsClicked(false)}
-          onMouseLeave={() => setaboutUsClicked(false)}
-        >
-          About us
-        </li>
-        {aboutUsClicked ? aboutUs : null}
+        <div className="relative">
+          <li
+            className={
+              aboutUsClicked
+                ? "mx-1 w-max p-2 bg-blue-800 border-radi  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
+                : "mx-1 w-max p-2 border-radi relative  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
+            }
+            onMouseEnter={() => setaboutUsClicked(true)}
+            onMouseLeave={() => setaboutUsClicked(false)}
+          >
+            About us
+          </li>
+          {aboutUsClicked ? aboutUs : null}
+        </div>
+
         <li className="mx-1 w-max hover:bg-blue-800 p-2 border-radi self-center cursor-pointer border-black    transition-colors duration-500 ease-in-out">
           Programmes
         </li>
-        <li
-          className={
-            partnershipClicked
-              ? "mx-1 w-max p-2 bg-blue-800 border-radi relative  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
-              : "mx-1 w-max p-2 border-radi relative  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
-          }
-          onMouseEnter={() => setpartnershipClicked(false)}
-          onMouseLeave={() => setpartnershipClicked(false)}
-        >
-          Partnerships
-        </li>
-        {partnershipClicked ? partnership : null}
+        <div className="relative">
+          <li
+            className={
+              partnershipClicked
+                ? "mx-1 w-max p-2 bg-blue-800 border-radi  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
+                : "mx-1 w-max p-2 border-radi relative  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
+            }
+            onMouseEnter={() => setpartnershipClicked(true)}
+            onMouseLeave={() => setpartnershipClicked(false)}
+          >
+            Partnerships
+          </li>
+          {partnershipClicked ? partnership : null}
+        </div>
         <Link to="/notice">
           <li className="mx-1 w-max hover:bg-blue-800 p-2 border-radi self-center cursor-pointer border-black    transition-colors duration-500 ease-in-out">
             Notice Board
