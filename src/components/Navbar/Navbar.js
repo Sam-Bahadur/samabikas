@@ -32,13 +32,13 @@ export default function Navbar() {
       onMouseEnter={() => setpartnershipClicked(true)}
       onMouseLeave={() => setpartnershipClicked(false)}
     >
-      <Link to="/Partnership/NGOsa">
+      <Link to="/Partnership/NGOs">
         <li>Partnership with NGOs</li>
       </Link>
-      <Link to="/Partnership/INGOsa">
+      <Link to="/Partnership/INGOs">
         <li>Partnership with INGOs</li>
       </Link>
-      <Link to="/Partnership/gova">
+      <Link to="/Partnership/gov">
         <li>Partnership with Government</li>
       </Link>
     </div>
@@ -65,10 +65,11 @@ export default function Navbar() {
           </li>
           {aboutUsClicked ? aboutUs : null}
         </div>
-
-        <li className="mx-1 w-max hover:bg-blue-800 p-2 border-radi self-center cursor-pointer border-black    transition-colors duration-500 ease-in-out">
-          Programmes
-        </li>
+        <Link to="/programmes">
+          <li className="mx-1 w-max hover:bg-blue-800 p-2 border-radi self-center cursor-pointer border-black    transition-colors duration-500 ease-in-out">
+            Programmes
+          </li>
+        </Link>
         <div className="relative">
           <li
             className={

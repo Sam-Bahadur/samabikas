@@ -14,6 +14,7 @@ import UnderConstruction from "./components/UnderConstruction/UnderConstruction"
 import Ngo from "./components/Partnership/Ngo";
 import Ingos from "./components/Partnership/Ingos";
 import Gov from "./components/Partnership/Gov";
+import Programmes from "./components/Programmes/Programmes";
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
       <div className="min-h-screen" style={{ width: "80%", margin: "0 auto" }}>
         <Switch>
           <Route exact path="/gallery" component={Gallary} />
-          {/* <Route exact path="/contact" component={ContactPage} /> */}
+          <Route exact path="/contact" component={ContactPage} />
           <Route exact path="/notice" component={Notice} />
           <Route exact path="/about/vision" component={Vision} />
           <Route exact path="/about/governance" component={Governance} />
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/Partnership/INGOs" component={Ingos} />
           <Route exact path="/Partnership/gov" component={Gov} />
           <Route exact path="/about/whoarewe" component={WhoAreWe} />
+          <Route exact path="/programmes" component={Programmes} />
           <Route exact path="/" component={Home} />
           <Route exact component={UnderConstruction} />
         </Switch>

@@ -5,10 +5,10 @@ export default function UnderConstruction() {
   return (
     <>
       <div className="text-4xl font-bold text-center my-16">
-        Site is under Construction
+        404! page not found
       </div>
       <div className="text-center">
-        Under construction by{" "}
+        Please contact{" "}
         <span className="text-yellow-600 font-semibold">
           <a target="_blank" href="https://www.mayanmedia.com.np">
             Mayan media
