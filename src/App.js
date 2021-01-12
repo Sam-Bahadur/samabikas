@@ -15,6 +15,7 @@ import Ngo from "./components/Partnership/Ngo";
 import Ingos from "./components/Partnership/Ingos";
 import Gov from "./components/Partnership/Gov";
 import Programmes from "./components/Programmes/Programmes";
+import NoticeDetails from "./components/Notice/NoticeDetails";
 
 function App() {
   return (
@@ -23,7 +24,10 @@ function App() {
       <div style={{ width: "80%", margin: "0 auto" }}>
         <NavbarTwo />
       </div>
-      <div className="min-h-screen" style={{ width: "80%", margin: "0 auto" }}>
+      <div
+        className="sm:w-full md:w-4/5 md:min-h-screen"
+        style={{ margin: "0 auto" }}
+      >
         <Switch>
           <Route exact path="/gallery" component={Gallary} />
           <Route exact path="/contact" component={ContactPage} />
@@ -35,6 +39,7 @@ function App() {
           <Route exact path="/Partnership/gov" component={Gov} />
           <Route exact path="/about/whoarewe" component={WhoAreWe} />
           <Route exact path="/programmes" component={Programmes} />
+          <Route exact path="/notice/details" component={NoticeDetails} />
           <Route exact path="/" component={Home} />
           <Route exact component={UnderConstruction} />
         </Switch>

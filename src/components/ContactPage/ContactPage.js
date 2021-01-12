@@ -1,4 +1,5 @@
 import React from "react";
+import Iframe from "react-iframe";
 
 export default function ContactPage() {
   return (
@@ -64,6 +65,18 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="max-w-full my-4">
+        <Iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25754.137207958494!2d81.33428799017263!3d29.049319952030476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a252071c536921%3A0x85f6b66a020a78bd!2sKamal%20Bazar%20Airport!5e0!3m2!1sen!2snp!4v1610428182108!5m2!1sen!2snp"
+          width="100%"
+          height="450"
+          frameborder="0"
+          style="border:0;"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></Iframe>
       </div>
     </>
   );
