@@ -16,6 +16,7 @@ import Ingos from "./components/Partnership/Ingos";
 import Gov from "./components/Partnership/Gov";
 import Programmes from "./components/Programmes/Programmes";
 import NoticeDetails from "./components/Notice/NoticeDetails";
+import Test from "./components/Test/Test";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route exact path="/about/whoarewe" component={WhoAreWe} />
           <Route exact path="/programmes" component={Programmes} />
           <Route exact path="/notice/details" component={NoticeDetails} />
+          <Route exact path="/test" component={Test} />
           <Route exact path="/" component={Home} />
           <Route exact component={UnderConstruction} />
         </Switch>

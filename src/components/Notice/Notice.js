@@ -6,25 +6,52 @@ import { Link } from "react-router-dom";
 
 export default function Notice() {
   const [notice, setnotice] = useState([]);
-  const [loading, setloading] = useState(true);
+  // const [searchresult, setsearchresult] = useState([]);
+  const [search, setsearch] = useState("");
+  const [isloading, setisloading] = useState(true);
+
   const fetchnotice = async () => {
     const { data, status } = await axios.get(
       "https://jsonbox.io/box_95b8ffe4a992720adce0/notice"
     );
     if (status == 200) {
-      setnotice(data);
-      setloading(false);
-      console.log(data);
+      const result = data.filter((singlenotice) => {
+        return singlenotice.title.toLowerCase().includes(search.toLowerCase());
+      });
+      setnotice(result);
+      // setnotice(data);
+      console.log(notice);
     }
+    setisloading(false);
   };
   useEffect(() => {
     fetchnotice();
-  }, []);
+    // console.log(notice);
+  }, [search]);
+
+  if (isloading) {
+    return <div className="text-center text-2xl mt-20">Loading... </div>;
+  }
 
   return (
     <>
       <div className="my-4">
-        <h2 className="text-mainblue font-semibold text-4xl">Notice Board</h2>
+        <div className="flex align-middle">
+          <div>
+            <h2 className="text-mainblue font-semibold text-4xl inline">
+              Notice Board
+            </h2>
+          </div>
+          <div className="ml-auto text-xl">
+            <input
+              type="text"
+              className="font-normal placeholder-maingreen border border-mainblue rounded-lg px-2 placeholder-opacity-70"
+              value={search}
+              placeholder="&#128269; search"
+              onChange={(e) => setsearch(e.target.value)}
+            />
+          </div>
+        </div>
         {notice.map((note) => {
           return (
             <card className="bg-gray-100 grid grid-cols-4 my-2 p-4 gap-10">
