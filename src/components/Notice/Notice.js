@@ -11,10 +11,9 @@ export default function Notice() {
   const [isloading, setisloading] = useState(true);
 
   const fetchnotice = async () => {
-    const { data, status } = await axios
-      .get
-      // "https://jsonbox.io/box_95b8ffe4a992720adce0/notice"
-      ();
+    const { data, status } = await axios.get(
+      "https://jsonbox.io/box_95b8ffe4a992720adce0/notice"
+    );
     if (status == 200) {
       const result = data.filter((singlenotice) => {
         return singlenotice.title.toLowerCase().includes(search.toLowerCase());
