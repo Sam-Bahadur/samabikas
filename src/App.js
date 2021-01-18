@@ -17,6 +17,7 @@ import Gov from "./components/Partnership/Gov";
 import Programmes from "./components/Programmes/Programmes";
 import NoticeDetails from "./components/Notice/NoticeDetails";
 import Test from "./components/Test/Test";
+import AddNotice from "./components/AddNotice/AddNotice";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route exact path="/gallery" component={Gallary} />
           <Route exact path="/contact" component={ContactPage} />
           <Route exact path="/notice" component={Notice} />
+          <Route exact path="/notice/newnotice" component={AddNotice} />
           <Route exact path="/about/vision" component={Vision} />
           <Route exact path="/about/governance" component={Governance} />
           <Route exact path="/Partnership/NGOs" component={Ngo} />

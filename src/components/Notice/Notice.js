@@ -12,7 +12,9 @@ export default function Notice() {
 
   const fetchnotice = async () => {
     const { data, status } = await axios.get(
-      "https://jsonbox.io/box_95b8ffe4a992720adce0/notice"
+      // "https://jsonbox.io/box_95b8ffe4a992720adce0/notice"
+      // "http://localhost:3001/api/posts"
+      "https://blooming-inlet-34308.herokuapp.com/api/posts"
     );
     if (status == 200) {
       const result = data.filter((singlenotice) => {
@@ -20,13 +22,13 @@ export default function Notice() {
       });
       setnotice(result);
       // setnotice(data);
-      console.log(notice);
+      console.log(result);
     }
     setisloading(false);
   };
   useEffect(() => {
     fetchnotice();
-    // console.log(notice);
+    console.log(notice);
   }, [search]);
 
   if (isloading) {
@@ -69,9 +71,9 @@ export default function Notice() {
                 <h1 className="text-mainblue font-medium text-2xl">
                   {note.title}
                 </h1>
-                <div className="my-2">{note.posted}</div>
+                <div className="my-2">{note.date.slice(0, 10)}</div>
                 <div className="text-sm">
-                  {note.details.substring(0, 80)}...
+                  {note.description.substring(0, 280)}...
                 </div>
                 <div className="mt-2">
                   <Link
@@ -79,8 +81,8 @@ export default function Notice() {
                       pathname: "/notice/details",
                       state: {
                         title: `${note.title}`,
-                        date: `${note.posted}`,
-                        data: `${note.details}`,
+                        date: `${note.date}`,
+                        data: `${note.description}`,
                       },
                     }}
                   >
