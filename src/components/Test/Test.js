@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState, useEffect } from "react";
 
 const people = [
@@ -20,6 +21,26 @@ const people = [
   {
     name: "George",
     age: 34,
+  },
+  {
+    name: "George",
+    age: 24,
+  },
+  {
+    name: "George",
+    age: 14,
+  },
+  {
+    name: "George",
+    age: 4,
+  },
+  {
+    name: "George",
+    age: 74,
+  },
+  {
+    name: "George",
+    age: 84,
   },
 ];
 
@@ -54,7 +75,7 @@ export default function Test() {
       />
       {result.map((person) => {
         return (
-          <div className="bg-mainblue m-4 px-4 py-2 w-full">
+          <div className="bg-mainblue m-4 px-4 py-2 max-w-full rounded-3xl">
             <div>{person.name}</div>
             <div>{person.age}</div>
           </div>
