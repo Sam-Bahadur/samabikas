@@ -1,8 +1,10 @@
 import React from "react";
+import { BsXDiamondFill } from "react-icons/bs";
+import "./Vision.scss";
 
 export default function Vision() {
   return (
-    <>
+    <div className="diamond">
       <div className="my-4">
         <div className="text-mainblue text-3xl font-semibold">
           Vision, Mission, Goals and Objectives
@@ -54,6 +56,6 @@ export default function Vision() {
           Work to assure women’s sexual and reproductive health and rights
         </li>
       </div>
-    </>
+    </div>
   );
 }

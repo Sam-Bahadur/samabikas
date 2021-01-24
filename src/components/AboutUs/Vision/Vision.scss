@@ -1,0 +1,13 @@
+.diamond {
+  li {
+    padding-left: 1.5em;
+    // text-indent: -1.5em;
+    list-style: none;
+    position: relative;
+    &::before {
+      content: "❖";
+      position: absolute;
+      left: 0;
+    }
+  }
+}
