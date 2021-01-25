@@ -1,48 +1,77 @@
-import React from "react";
+import React, { useState } from "react";
 import Iframe from "react-iframe";
 
 export default function ContactPage() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
   return (
     <>
-      <div className="h-px w-full bg-gray-400 mt-4"></div>
+      <div className="h-px w-full mt-4"></div>
       <div className="text-mainblue mt-4 font-bold text-4xl">
         Contact Us
-        <div className="grid lg:grid-cols-2 gap-10  my-4 p-4 bg-gray-100">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10  my-4 p-4">
           <form className="text-2xl">
-            <div className="my-2 grid grid-cols-2">
-              <label className="text-black">Name :</label>
+            <div className="my-4 grid grid-cols-2">
+              <label className="text-black text-base">Name* :</label>
               <input
-                className="text-base ml-2 px-2 text-black  rounded-sm bg-blue-100"
+                className="text-base ml-2 px-2 text-black  rounded-sm  border border-gray-200"
                 type="text"
                 placeholder="Name"
+                required
+                value={name}
+                onChange={(e) => setName(e.target.value)}
               />
             </div>
-            <div className="my-2 grid grid-cols-2">
-              <label className="text-black">Email :</label>
+            <div className="my-4 grid grid-cols-2">
+              <label className="text-black text-base">Email* :</label>
               <input
-                className="text-base ml-2 px-2 text-black  rounded-sm bg-blue-100"
+                className="text-base ml-2 px-2 text-black  rounded-sm  border border-gray-200"
                 type="email"
                 placeholder="email"
+                required
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
             </div>
-            <div className="my-2 grid grid-cols-2">
-              <label className="text-black">Phone :</label>
+            <div className="my-4 grid grid-cols-2">
+              <label className="text-black text-base">Phone :</label>
               <input
-                className="text-base ml-2 px-2 text-black  rounded-sm bg-blue-100"
+                className="text-base ml-2 px-2 text-black  rounded-sm  border border-gray-200"
                 type="text"
                 placeholder="Phone"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
               />
-              <label className="text-black">Message:</label>
-              <textarea
-                className="text-base my-2 ml-2  px-2 text-black  rounded-sm bg-blue-100 h-40"
-                placeholder="your message here"
-              ></textarea>
             </div>
-            <div className="my-2 grid grid-cols-2">
-              <div></div>
-              <p className="cursor-pointer px-2 py-0 w-max font-normal mx-auto rounded-sm bg-blue-300 hover:bg-blue-700 hover:text-white duration-500">
-                Send
-              </p>
+            <div className="my-4 grid grid-cols-2">
+              <label className="text-black text-base">Message* :</label>
+              <div className="grid-rows-2">
+                <textarea
+                  className="text-base ml-2  px-2 text-black  rounded-sm  border border-gray-200 h-40 w-full  "
+                  placeholder="your message here"
+                  required
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                ></textarea>
+                <div className="my-2 grid grid-cols-3">
+                  <p className="cursor-pointer px-2 py-0 w-max font-normal mx-auto rounded-sm bg-blue-300 hover:bg-blue-700 hover:text-white duration-500">
+                    Send
+                  </p>
+                  <p
+                    className="cursor-pointer px-2 py-0 w-max font-normal mx-auto rounded-sm bg-blue-300 hover:bg-blue-700 hover:text-white duration-500"
+                    onClick={() => {
+                      setName("");
+                      setPhone("");
+                      setEmail("");
+                      setMessage("");
+                    }}
+                  >
+                    Reset
+                  </p>
+                </div>
+              </div>
             </div>
           </form>
           <div className="grid grid-rows-1 grid-cols-1">

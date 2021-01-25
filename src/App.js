@@ -18,6 +18,9 @@ import Programmes from "./components/Programmes/Programmes";
 import NoticeDetails from "./components/Notice/NoticeDetails";
 import Test from "./components/Test/Test";
 import AddNotice from "./components/AddNotice/AddNotice";
+import OurTeam from "./components/AboutUs/OurTeam/OurTeam";
+import Ongoing from "./components/Programmes/Ongoing";
+import Completed from "./components/Programmes/Completed";
 
 function App() {
   return (
@@ -36,7 +39,7 @@ function App() {
           <Route exact path="/notice" component={Notice} />
           <Route exact path="/notice/newnotice" component={AddNotice} />
           <Route exact path="/about/vision" component={Vision} />
-          <Route exact path="/about/governance" component={Governance} />
+          <Route exact path="/about/ourteam" component={OurTeam} />
           <Route exact path="/Partnership/NGOs" component={Ngo} />
           <Route exact path="/Partnership/INGOs" component={Ingos} />
           <Route exact path="/Partnership/gov" component={Gov} />
@@ -44,6 +47,8 @@ function App() {
           <Route exact path="/programmes" component={Programmes} />
           <Route exact path="/notice/details" component={NoticeDetails} />
           <Route exact path="/test" component={Test} />
+          <Route exact path="/programs/ongoing" component={Ongoing} />
+          <Route exact path="/programs/completed" component={Completed} />
           <Route exact path="/" component={Home} />
           <Route exact component={UnderConstruction} />
         </Switch>

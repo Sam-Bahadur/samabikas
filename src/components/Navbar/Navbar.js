@@ -5,7 +5,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 export default function Navbar() {
   const [aboutUsClicked, setaboutUsClicked] = useState(false);
-  const [partnershipClicked, setpartnershipClicked] = useState(false);
+  const [programsClicked, setprogramsClicked] = useState(false);
   const aboutUs = (
     <div
       className={style.aboutus}
@@ -18,6 +18,21 @@ export default function Navbar() {
       </Link>
       <Link to="/about/ourteam">
         <li className="bg-mainblue">Our Team</li>
+      </Link>
+    </div>
+  );
+  const programs = (
+    <div
+      className={style.aboutus}
+      // className="z-50 absolute top-12 left-20 bg-mainblue p-4 cursor-pointer"
+      onMouseEnter={() => setprogramsClicked(true)}
+      onMouseLeave={() => setprogramsClicked(false)}
+    >
+      <Link to="/programs/ongoing">
+        <li className="bg-mainblue">Ongoing Programs</li>
+      </Link>
+      <Link to="/programs/completed">
+        <li className="bg-mainblue">Completed Programs</li>
       </Link>
     </div>
   );
@@ -45,11 +60,20 @@ export default function Navbar() {
             </li>
             {aboutUsClicked ? aboutUs : null}
           </div>
-          <Link to="/programmes">
-            <li className="mx-1 w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer border-black    transition-colors duration-500 ease-in-out">
+          <div className="relative">
+            <li
+              className={
+                programsClicked
+                  ? "mx-1 w-max p-3 py-5 bg-mainblue border-radi  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
+                  : "mx-1 w-max p-3 py-5 border-radi relative  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
+              }
+              onMouseEnter={() => setprogramsClicked(true)}
+              onMouseLeave={() => setprogramsClicked(false)}
+            >
               Programmes
             </li>
-          </Link>
+            {programsClicked ? programs : null}
+          </div>
           <Link to="/notice">
             <li className="mx-1  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer border-black    transition-colors duration-500 ease-in-out">
               Notice Board
