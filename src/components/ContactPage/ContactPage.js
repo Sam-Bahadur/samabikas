@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Iframe from "react-iframe";
+import "./Contact.scss";
 
 export default function ContactPage() {
   const [name, setName] = useState("");
@@ -77,16 +78,16 @@ export default function ContactPage() {
           <div className="grid grid-rows-1 grid-cols-1">
             <div className="p-4 px-8  bg-gray-200">
               <p className="text-mainblue text-2xl">Contact Address</p>
-              <p className="text-black text-sm font-bold">SAMABIKAS Nepal</p>
-              <p className="text-black text-sm font-normal">
+              <p className="text-black text-base font-bold">SAMABIKAS Nepal</p>
+              <p className="text-black text-base font-normal">
                 Sanfebagar Municipality Ward no 4, Achham
               </p>
-
-              <p className="text-black text-sm mt-4 font-normal">
-                Tel: 097-625045 Mobile: 9858421973
+              <p className="text-black text-base mt-4 font-normal">
+                Tel: 097-625045<br></br> Mobile: 9858421973
               </p>
+              <br></br>
 
-              <p className="text-black text-sm font-normal">
+              <p className="text-black text-base font-normal">
                 (Attn: Pashupati Kunwar, President)<br></br>
                 Email: samabikas@gmail.com<br></br>
                 pashupatikunwar@gmail.com
@@ -97,6 +98,7 @@ export default function ContactPage() {
       </div>
       <div className="max-w-full my-4">
         <Iframe
+          className="map-filter"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25754.137207958494!2d81.33428799017263!3d29.049319952030476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a252071c536921%3A0x85f6b66a020a78bd!2sKamal%20Bazar%20Airport!5e0!3m2!1sen!2snp!4v1610428182108!5m2!1sen!2snp"
           width="100%"
           height="450"

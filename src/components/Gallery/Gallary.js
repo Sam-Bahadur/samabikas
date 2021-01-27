@@ -7,23 +7,33 @@ import style from "./Gallary.module.scss";
 const jagaran = [
   {
     src: jagaran1,
-    width: 8,
-    height: 3,
+    width: 16,
+    height: 9,
   },
   {
     src: jagaran1,
-    width: 8,
-    height: 3,
+    width: 16,
+    height: 9,
   },
   {
     src: jagaran1,
-    width: 8,
-    height: 3,
+    width: 16,
+    height: 9,
   },
   {
     src: jagaran1,
-    width: 8,
-    height: 3,
+    width: 16,
+    height: 9,
+  },
+  {
+    src: jagaran1,
+    width: 16,
+    height: 9,
+  },
+  {
+    src: jagaran1,
+    width: 16,
+    height: 9,
   },
 ];
 export default function Gallary() {

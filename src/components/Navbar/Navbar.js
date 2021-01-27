@@ -1,11 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import style from "./Navbar.module.scss";
 import { IoIosArrowDown } from "react-icons/io";
 
 export default function Navbar() {
+  const [navbarClicked, setNavbarClicked] = useState(true);
   const [aboutUsClicked, setaboutUsClicked] = useState(false);
   const [programsClicked, setprogramsClicked] = useState(false);
+  const [width, setWidth] = useState("");
+
+  useEffect(() => {
+    const w = window.innerWidth;
+    setWidth(w);
+    w > 768 ? setNavbarClicked(true) : setNavbarClicked(false);
+  }, []);
   const aboutUs = (
     <div
       className={style.aboutus}
@@ -37,21 +45,22 @@ export default function Navbar() {
     </div>
   );
 
-  return (
+  return navbarClicked ? (
     <div className="navbar">
-      <div className=" shadow-lg w-full bg-maingreen z-50 h-18 text-sm">
+      <div className=" shadow-lg w-full bg-maingreen z-50 h-18 text-sm pb-2 md:pb-0">
         <div className="h-full list-none  lg:flex items-center mx-auto w-min text-lg font-semibold text-white capitalize">
           <Link to="/">
-            <li className="mx-1  hover:bg-mainblue w-max p-3 py-5 border-radi self-center cursor-pointer border-black transition-colors duration-500 ease-in-out">
+            <li className="  hover:bg-mainblue w-max p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out">
               home
             </li>
           </Link>
+
           <div className="relative">
             <li
               className={
                 aboutUsClicked
-                  ? "mx-1 w-max p-3 py-5 bg-mainblue border-radi  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
-                  : "mx-1 w-max p-3 py-5 border-radi relative  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
+                  ? " w-max p-3 py-5 bg-mainblue border-radi  self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out"
+                  : " w-max p-3 py-5 border-radi relative  self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out"
               }
               onMouseEnter={() => setaboutUsClicked(true)}
               onMouseLeave={() => setaboutUsClicked(false)}
@@ -64,8 +73,8 @@ export default function Navbar() {
             <li
               className={
                 programsClicked
-                  ? "mx-1 w-max p-3 py-5 bg-mainblue border-radi  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
-                  : "mx-1 w-max p-3 py-5 border-radi relative  self-center cursor-pointer border-black transition-colors duration-500 ease-in-out"
+                  ? " w-max p-3 py-5 bg-mainblue border-radi  self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out"
+                  : " w-max p-3 py-5 border-radi relative  self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out"
               }
               onMouseEnter={() => setprogramsClicked(true)}
               onMouseLeave={() => setprogramsClicked(false)}
@@ -75,27 +84,27 @@ export default function Navbar() {
             {programsClicked ? programs : null}
           </div>
           <Link to="/notice">
-            <li className="mx-1  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer border-black    transition-colors duration-500 ease-in-out">
-              Notice Board
+            <li className="  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40    transition-colors duration-500 ease-in-out">
+              Latest Activities
             </li>
           </Link>
           <Link to="/gallery">
-            <li className="mx-1  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer border-black    transition-colors duration-500 ease-in-out">
+            <li className="  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40    transition-colors duration-500 ease-in-out">
               Gallery
             </li>
           </Link>
           <Link to="/contact">
-            <li className="mx-1  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer border-black    transition-colors duration-500 ease-in-out">
+            <li className="  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out">
               Contact
             </li>
           </Link>
           <Link to="/contact">
-            <li className="mx-1  w-max bg-mainblue rounded-lg hover:bg-mainblue p-3 border-radi self-center cursor-pointer border-black    transition-colors duration-500 ease-in-out">
+            <li className="  w-max bg-mainblue rounded-lg hover:bg-mainblue p-3 ml-2 border-radi self-center cursor-pointer md:border-gray-400 md:    transition-colors duration-500 ease-in-out">
               Donate
             </li>
           </Link>
         </div>
       </div>
     </div>
-  );
+  ) : null;
 }

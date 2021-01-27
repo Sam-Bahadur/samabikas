@@ -5,6 +5,7 @@ import "./Vision.scss";
 export default function Vision() {
   return (
     <div className="diamond">
+      <img className="watermark" />
       <div className="my-4">
         <div className="text-mainblue text-3xl font-semibold">
           Vision, Mission, Goals and Objectives

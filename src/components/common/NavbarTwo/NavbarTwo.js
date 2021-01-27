@@ -11,7 +11,7 @@ import logo from "../../../assets/logo/logo.png";
 
 export default function NavbarTwo() {
   return (
-    <div className="flex flex-wrap justify-between">
+    <div className="flex flex-wrap justify-between my-2">
       <div className="flex justify-start items-center">
         <div className="m-1">
           <img src={logo} className="w-20" />
@@ -29,7 +29,7 @@ export default function NavbarTwo() {
       <div className="self-center">
         <span className="text-gray-600">
           <AiFillPhone className="inline" />
-          9843534725 <FiMail className="inline ml-2" /> samabikas@gmail.com{" "}
+          +097-625045 <FiMail className="inline ml-2" /> samabikas@gmail.com{" "}
           <AiFillFacebook className="inline ml-2 hover:text-mainblue duration-300 cursor-pointer text-2xl" />
           <AiFillYoutube className="inline ml-2 hover:text-mainblue duration-300 cursor-pointer text-2xl" />{" "}
         </span>

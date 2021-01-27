@@ -1,8 +1,8 @@
 .aboutus {
   position: absolute;
-  top: 4rem;
+  top: 4.2rem;
   // bottom: 0;
-  left: 0.25rem;
+  // left: 0.15rem;
   z-index: 99;
   width: max-content;
   li {
@@ -13,5 +13,17 @@
     &:hover {
       background-color: #06195a;
     }
+  }
+}
+.sideline {
+  position: relative;
+  &::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 5px;
+    background: teal;
   }
 }

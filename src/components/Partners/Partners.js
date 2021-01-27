@@ -8,10 +8,10 @@ export default function Partners() {
         Partners
       </h1>
       <div className="flex justify-center">
-        <img className="w-24 mx-1 " src={img} />
-        <img className="w-24 mx-1" src={img} />
-        <img className="w-24 mx-1" src={img} />
-        <img className="w-24 mx-1" src={img} />
+        <img className="w-12 md:w-24 mx-1 " src={img} />
+        <img className="w-12 md:w-24 mx-1" src={img} />
+        <img className="w-12 md:w-24 mx-1" src={img} />
+        <img className="w-12 md:w-24 mx-1" src={img} />
       </div>
     </div>
   );

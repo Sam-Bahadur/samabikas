@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Aboutus() {
   return (
-    <div>
+    <div className="w-full px-4">
       <h1 className="text-mainblue font-bold text-3xl uppercase text-center">
         About us
       </h1>
