@@ -4,7 +4,7 @@ import "./Vision.scss";
 
 export default function Vision() {
   return (
-    <div className="diamond">
+    <div className="diamond w-4/5 mx-auto">
       <img className="watermark" />
       <div className="my-4">
         <div className="text-mainblue text-3xl font-semibold">

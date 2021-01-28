@@ -30,7 +30,7 @@ function App() {
         <NavbarTwo />
       </div>
       <div
-        className="sm:w-full md:w-4/5 md:min-h-screen"
+        className="sm:w-full md:full min-h-screen"
         style={{ margin: "0 auto" }}
       >
         <Switch>

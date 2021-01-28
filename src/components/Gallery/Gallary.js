@@ -49,7 +49,7 @@ export default function Gallary() {
     setViewerIsOpen(false);
   };
   return (
-    <div className="mt-4">
+    <div className="mt-4 w-4/5 mx-auto">
       <div className={style.gallarry}>
         <Gallery
           photos={jagaran}

@@ -37,14 +37,14 @@ export default function Notice() {
 
   return (
     <>
-      <div className="my-4">
-        <div className="flex align-middle">
+      <div className="my-4 w-4/5 mx-auto">
+        <div className="flex align-middle flex-wrap">
           <div>
             <h2 className="text-mainblue font-semibold text-4xl inline">
               Notice Board
             </h2>
           </div>
-          <div className="ml-auto text-xl">
+          <div className="md:ml-auto text-xl">
             <input
               type="text"
               className="font-normal placeholder-maingreen border border-mainblue rounded-lg px-2 placeholder-opacity-70"

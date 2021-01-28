@@ -5,7 +5,7 @@ export default function NoticeDetails(props) {
     window.scroll(0, 0);
   }, []);
   return (
-    <div className="my-8">
+    <div className="my-8 w-4/5 mx-auto">
       <div className="font-semibold text-2xl text-mainblue">
         {props.location.state.title}
       </div>

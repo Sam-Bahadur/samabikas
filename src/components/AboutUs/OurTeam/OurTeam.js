@@ -3,7 +3,7 @@ import img from "../../../assets/images/person.png";
 
 export default function OurTeam() {
   return (
-    <div className="our-team">
+    <div className="our-team w-4/5 mx-auto">
       <div className="text-mainblue my-4 text-center text-4xl font-bold">
         Board Members
       </div>

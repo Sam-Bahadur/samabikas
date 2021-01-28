@@ -6,7 +6,7 @@ import { FiMail } from "react-icons/fi";
 export default function Contact() {
   return (
     <div>
-      <h1 className="text-mainblue text-center font-bold text-3xl my-8">
+      <h1 className="text-mainblue text-center font-bold text-3xl my-8 uppercase">
         Contact Information
       </h1>
       <div className="flex flex-wrap">

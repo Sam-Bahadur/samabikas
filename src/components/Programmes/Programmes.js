@@ -37,7 +37,7 @@ const SingleProgram = (props) => {
 
 export default function Programmes() {
   return (
-    <div className="my-4">
+    <div className="my-4 w-4/5 mx-auto">
       <SingleProgram
         title={
           "Protection of women’s dignity through abolition of “Chhaupadi” tradition  in Achham District"

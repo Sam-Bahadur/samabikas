@@ -8,7 +8,7 @@ export default function ContactPage() {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   return (
-    <>
+    <div className="w-4/5 mx-auto">
       <div className="h-px w-full mt-4"></div>
       <div className="text-mainblue mt-4 font-bold text-4xl">
         Contact Us
@@ -109,6 +109,6 @@ export default function ContactPage() {
           tabindex="0"
         ></Iframe>
       </div>
-    </>
+    </div>
   );
 }
