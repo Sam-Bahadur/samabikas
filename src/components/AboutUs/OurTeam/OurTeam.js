@@ -1,6 +1,8 @@
 import React from "react";
 import img from "../../../assets/images/person.png";
 
+const bod = [];
+
 export default function OurTeam() {
   return (
     <>
@@ -9,6 +11,37 @@ export default function OurTeam() {
           Board Members
         </div>
         <div className="board flex flex-col justify-center">
+          {bod.map((person) => {
+            return (
+              <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
+                <div className="col-start-1 col-span-1 w-60 mx-auto">
+                  <img src={img} className="rounded-full w-40" />
+                  <h4 className="font-bold px-4">
+                    {/* Pashupati Kunwar */}
+                    {person.name}
+                  </h4>
+                  <h4 className="font-bold px-4">
+                    {/* Chairperson */}
+                    {person.post}
+                  </h4>
+                </div>
+                <div className="col-start-2 col-span-full">
+                  {person.desc}
+                  {/* Pashupati Kunwar is an activist, humanist and a feminist who has
+              an extensive background in gender studies, human rights and
+              menstrual awareness. She started her activism from early teen
+              years where she herself protested against the abolition of
+              Chhaupadi Tradition in rural parts of Achham. She has done
+              tremendous work in sexual and reproductive health of women,
+              child-marriage and gender violence. She is also an executive
+              member (Deputy in charge of Far Western Province) of NGO
+              Federation of Nepal. She holds a Masters Degree in Sociology from
+              Tribhuvan University. She can be reached through
+              pashupatikunwar@gmail.com */}
+                </div>
+              </div>
+            );
+          })}
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
               <img src={img} className="rounded-full w-40" />

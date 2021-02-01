@@ -10,8 +10,12 @@ export default function Vision() {
         <div className="text-mainblue text-3xl font-semibold">
           Vision, Mission, Goals and Objectives
         </div>
-        <h2 className=" text-xl text-maingreen mt-2">Vision</h2>
-        <h2>"Create equal, social just and dignified society"</h2>
+        <div className="">
+          <h2 className=" text-xl text-maingreen mt-2 font-bold">Vision</h2>
+          <h2 className="font-bold">
+            "Create equal, social just and dignified society"
+          </h2>
+        </div>
         <h2 className=" text-xl text-maingreen mt-2">Missions</h2>
         <h2>
           Empower, respect, create meaningful participation, capacity building,
