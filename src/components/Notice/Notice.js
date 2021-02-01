@@ -56,18 +56,18 @@ export default function Notice() {
         </div>
         {notice.map((note) => {
           return (
-            <card className="bg-gray-100 grid grid-cols-4 my-2 p-4 gap-10">
-              <div className="col-span-1">
+            <card className="bg-gray-100 grid my-2 p-4 gap-10 md:grid md:grid-cols-2 md:grid-rows-1 rounded-lg">
+              <div className="">
                 <img
                   src={img}
                   style={{
-                    width: "100%",
-                    height: "180px",
+                    width: "",
+                    height: "14rem",
                     objectFit: "cover",
                   }}
                 />
               </div>
-              <div className="col-start-2 col-span-3">
+              <div className="">
                 <h1 className="text-mainblue font-medium text-2xl">
                   {note.title}
                 </h1>

@@ -11,10 +11,10 @@ export default function Partners() {
         Partners
       </h1>
       <div className="flex flex-wrap md:flex-nowrap justify-center my-4">
-        <img className="w-20 md:w-48 md:h-28 mx-1 " src={partner1} />
-        <img className="w-20 md:w-40 md:h-28 mx-1" src={partner2} />
-        <img className="w-20 md:w-40 md:h-28 mx-1" src={partner3} />
-        <img className="w-20 md:w-40 md:h-28 mx-1" src={partner4} />
+        <img className="w-20 h-18 md:w-48 md:h-28 mx-1 " src={partner1} />
+        <img className="w-20 h-18 md:w-40 md:h-28 mx-1" src={partner2} />
+        <img className="w-20 h-18 md:w-40 md:h-28 mx-1" src={partner3} />
+        <img className="w-20 h-18 md:w-40 md:h-28 mx-1" src={partner4} />
       </div>
     </div>
   );

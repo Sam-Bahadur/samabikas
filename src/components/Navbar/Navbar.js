@@ -17,12 +17,13 @@ export default function Navbar() {
   const aboutUs = (
     <div
       className={style.aboutus}
-      // className="z-50 absolute top-12 left-20 bg-mainblue p-4 cursor-pointer"
       onMouseEnter={() => setaboutUsClicked(true)}
       onMouseLeave={() => setaboutUsClicked(false)}
     >
       <Link to="/about/vision">
-        <li className="bg-mainblue">Vision, Mission, Goals and Objectives</li>
+        <li className="w-60 md:w-full bg-mainblue">
+          Vision, Mission, Goals and Objectives
+        </li>
       </Link>
       <Link to="/about/ourteam">
         <li className="bg-mainblue">Our Team</li>
@@ -32,7 +33,6 @@ export default function Navbar() {
   const programs = (
     <div
       className={style.aboutus}
-      // className="z-50 absolute top-12 left-20 bg-mainblue p-4 cursor-pointer"
       onMouseEnter={() => setprogramsClicked(true)}
       onMouseLeave={() => setprogramsClicked(false)}
     >
@@ -49,10 +49,10 @@ export default function Navbar() {
     <div className="navbar relative">
       {width < 768 ? (
         <div
-          className="absolute top-4 left-4 "
+          className="absolute top-6 left-4"
           onClick={() => setNavbarClicked(false)}
         >
-          <div className="h-1 w-10 bg-white transform rotate-45"></div>
+          <div className="h-1 w-10 bg-white transform rotate-45 translate-y-px"></div>
           <div className="h-1 w-10 bg-white transform -rotate-45"></div>
         </div>
       ) : null}
@@ -121,7 +121,7 @@ export default function Navbar() {
     </div>
   ) : (
     <div className="bg-maingreen p-4" onClick={() => setNavbarClicked(true)}>
-      <div className="w-10 h-1 bg-white "></div>
+      <div className="w-10 h-1 bg-white"></div>
       <div className="w-10 h-1 bg-white mt-1"></div>
       <div className="w-10 h-1 bg-white mt-1"></div>
     </div>
