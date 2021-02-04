@@ -111,7 +111,7 @@ export default function Navbar() {
               Contact
             </li>
           </Link>
-          <Link to="/contact">
+          <Link to="/donate">
             <li className="  w-max bg-mainblue rounded-lg hover:bg-mainblue p-3 ml-2 border-radi self-center cursor-pointer md:border-gray-400 md:    transition-colors duration-500 ease-in-out">
               Donate
             </li>

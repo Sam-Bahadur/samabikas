@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Ongoing.scss";
 
 export default function Ongoing() {
@@ -8,9 +9,15 @@ export default function Ongoing() {
         Ongoing Projects
       </div>
       <div className="ongoing">
-        <li>Ongoing Project 1</li>
-        <li>Ongoing Project 2</li>
-        <li>Ongoing Project 3</li>
+        <Link to="ongoing/details">
+          <li>Ongoing Project 1</li>
+        </Link>
+        <Link to="ongoing/details">
+          <li>Ongoing Project 2</li>
+        </Link>
+        <Link to="ongoing/details">
+          <li>Ongoing Project 3</li>
+        </Link>
       </div>
     </div>
   );
