@@ -23,6 +23,7 @@ import Ongoing from "./components/Programmes/Ongoing";
 import Completed from "./components/Programmes/Completed";
 import ongoingDetails from "./components/Programmes/ongoingDetails";
 import Donation from "./components/Donation/Donation";
+import CompletedDetails from "./components/Programmes/CompletedDetails";
 
 function App() {
   return (
@@ -51,6 +52,11 @@ function App() {
           <Route exact path="/test" component={Test} />
           <Route exact path="/programs/ongoing" component={Ongoing} />
           <Route exact path="/programs/completed" component={Completed} />
+          <Route
+            exact
+            path="/programs/completed/details"
+            component={CompletedDetails}
+          />
           <Route exact path="/donate" component={Donation} />
           <Route
             exact

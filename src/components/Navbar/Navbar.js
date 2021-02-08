@@ -56,7 +56,7 @@ export default function Navbar() {
           <div className="h-1 w-10 bg-white transform -rotate-45"></div>
         </div>
       ) : null}
-      <div className=" shadow-lg w-full bg-maingreen z-50 h-18 text-sm pb-2 md:pb-0 ">
+      <div className="shadow-lg w-full bg-maingreen z-50 h-18 text-sm pb-2 md:pb-0 ">
         <div className="h-full list-none  lg:flex items-center mx-auto w-min text-lg font-semibold text-white capitalize">
           <Link to="/">
             <li className="  hover:bg-mainblue w-max p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out">
@@ -112,7 +112,7 @@ export default function Navbar() {
             </li>
           </Link>
           <Link to="/donate">
-            <li className="  w-max bg-mainblue rounded-lg hover:bg-mainblue p-3 ml-2 border-radi self-center cursor-pointer md:border-gray-400 md:    transition-colors duration-500 ease-in-out">
+            <li className=" md:absolute md:top-2 md:right-2 w-max bg-mainblue rounded-lg hover:bg-mainblue p-3 ml-2 border-radi self-center cursor-pointer md:border-gray-400 md:    transition-colors duration-500 ease-in-out">
               Donate
             </li>
           </Link>

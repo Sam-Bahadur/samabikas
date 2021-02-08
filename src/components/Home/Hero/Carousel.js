@@ -2,7 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import img from "../../../assets/images/hero1.jpg";
+import car1 from "../../../assets/images/banner/Adolescent girls participating in Gender and Leadership Training.jpg";
+import car2 from "../../../assets/images/banner/car2.jpg";
+import car3 from "../../../assets/images/banner/Mastamandu decleared as Chhaupadi Free Area .JPG";
+import car4 from "../../../assets/images/banner/SAMABIKAS Nepal awarded by With and For Girls in London on March 2020.jpg";
+import car5 from "../../../assets/images/banner/Sheetal B.K. from Budakot Achham receiving Award from With and For Girls in London on March 2020.jpg";
+import car6 from "../../../assets/images/banner/Young women in gender and leadership training.jpg";
 import "./Carousel.scss";
 
 export default function SimpleSlider() {
@@ -22,15 +27,41 @@ export default function SimpleSlider() {
     >
       <Slider {...settings}>
         <div className="relative">
-          <img className="h-4/6 md:h-screen w-screen object-cover" src={img} />
+          <img className="h-4/6 md:h-screen w-screen object-cover" src={car1} />
           <h1 className="absolute bottom-2 left-1/2 carousel_text font-bold md:text-4xl text-mainblue">
-            first caption
+            Adolescent girls participating in Gender and Leadership Training
           </h1>
         </div>
         <div className="relative">
-          <img className="h-4/6 md:h-screen w-screen object-cover" src={img} />
+          <img className="h-4/6 md:h-screen w-screen object-cover" src={car2} />
           <h1 className="absolute bottom-2 left-1/2 carousel_text font-bold md:text-4xl text-mainblue">
-            second caption
+            Gender and Leadership Training
+          </h1>
+        </div>
+        <div className="relative">
+          <img className="h-4/6 md:h-screen w-screen object-cover" src={car3} />
+          <h1 className="absolute bottom-2 left-1/2 carousel_text font-bold md:text-4xl text-mainblue">
+            Mastamandu decleared as Chhaupadi Free Area
+          </h1>
+        </div>
+        <div className="relative">
+          <img className="h-4/6 md:h-screen w-screen object-cover" src={car4} />
+          <h1 className="absolute bottom-2 left-1/2 carousel_text font-bold md:text-4xl text-mainblue">
+            SAMABIKAS Nepal awarded by With and For Girls in London on March
+            2020
+          </h1>
+        </div>
+        <div className="relative">
+          <img className="h-4/6 md:h-screen w-screen object-cover" src={car5} />
+          <h1 className="absolute bottom-2 left-1/2 carousel_text font-bold md:text-4xl text-mainblue">
+            Sheetal B.K. from Budakot Achham receiving Award from With and For
+            Girls in London on March 2020
+          </h1>
+        </div>
+        <div className="relative">
+          <img className="h-4/6 md:h-screen w-screen object-cover" src={car6} />
+          <h1 className="absolute bottom-2 left-1/2 carousel_text font-bold md:text-4xl text-mainblue">
+            Young women in gender and leadership training
           </h1>
         </div>
       </Slider>
