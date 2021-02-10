@@ -1,6 +1,10 @@
 .gallarry {
+  width: 90%;
+  margin: 0 auto;
   img {
     transition: 0.3s all ease-in-out;
+    width: 250px;
+    height: 150px;
     &:hover {
       transform: scale(0.97);
     }

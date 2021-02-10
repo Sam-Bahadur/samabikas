@@ -1,5 +1,17 @@
 import React from "react";
 import img from "../../../assets/images/person.png";
+import dudhkala from "../../../assets/images/members/bod/dudhkala.jpg";
+import krishna from "../../../assets/images/members/bod/krishna.jpg";
+import pashupati from "../../../assets/images/members/bod/pashupati.jpg";
+import rupa from "../../../assets/images/members/bod/rupa.jpg";
+import satya from "../../../assets/images/members/bod/satya.jpg";
+
+import Bishna from "../../../assets/images/members/staffs/Bishna.jpg";
+import Margie from "../../../assets/images/members/staffs/Margie.jpg";
+import Monika from "../../../assets/images/members/staffs/Monika.jpg";
+import Pawan from "../../../assets/images/members/staffs/Pawan.jpg";
+import Pipala from "../../../assets/images/members/staffs/Pipala.jpg";
+import Srijana from "../../../assets/images/members/staffs/Srijana.jpg";
 
 const bod = [];
 
@@ -15,7 +27,7 @@ export default function OurTeam() {
             return (
               <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
                 <div className="col-start-1 col-span-1 w-60 mx-auto">
-                  <img src={img} className="rounded-full w-40" />
+                  <img src={pashupati} className="rounded-full w-40" />
                   <h4 className="font-bold px-4">
                     {/* Pashupati Kunwar */}
                     {person.name}
@@ -44,7 +56,10 @@ export default function OurTeam() {
           })}
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={pashupati}
+                className="rounded-full w-40 object-cover object-top h-40 "
+              />
               <h4 className="font-bold px-4">Pashupati Kunwar</h4>
               <h4 className="font-bold px-4">Chairperson</h4>
             </div>
@@ -64,7 +79,10 @@ export default function OurTeam() {
           </div>
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={satya}
+                className="rounded-full w-40 object-cover object-top h-40"
+              />
               <h4 className="font-bold px-4">Satya Swar</h4>
               <h4 className="font-bold px-4">Vice President</h4>
             </div>
@@ -79,7 +97,10 @@ export default function OurTeam() {
           </div>
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={dudhkala}
+                className="rounded-full w-40 object-cover object-top h-40"
+              />
               <h4 className="font-bold px-4">Dudhkala Bista</h4>
               <h4 className="font-bold px-4">General Secretary</h4>
             </div>
@@ -92,7 +113,10 @@ export default function OurTeam() {
           </div>
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={rupa}
+                className="rounded-full w-40 object-cover object-top h-40"
+              />
               <h4 className="font-bold px-4">Rupa Nepali</h4>
               <h4 className="font-bold px-4">Treasurer</h4>
             </div>
@@ -105,7 +129,10 @@ export default function OurTeam() {
           </div>
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={img}
+                className="rounded-full w-40 object-cover object-top h-40"
+              />
               <h4 className="font-bold px-4">Basanti Bohora</h4>
               <h4 className="font-bold px-4">Member</h4>
             </div>
@@ -120,7 +147,10 @@ export default function OurTeam() {
           </div>
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={img}
+                className="rounded-full w-40 object-cover object-top h-40"
+              />
               <h4 className="font-bold px-4">Maheshwori B.K.</h4>
               <h4 className="font-bold px-4">Member</h4>
             </div>
@@ -132,7 +162,10 @@ export default function OurTeam() {
           </div>
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={krishna}
+                className="rounded-full w-40 object-cover object-top h-40"
+              />
               <h4 className="font-bold px-4">Krishna Khadka</h4>
               <h4 className="font-bold px-4">Member</h4>
             </div>
@@ -146,7 +179,10 @@ export default function OurTeam() {
           </div>
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={img}
+                className="rounded-full w-40 object-cover object-top h-40"
+              />
               <h4 className="font-bold px-4">Samundra Lohar</h4>
               <h4 className="font-bold px-4">Member</h4>
             </div>
@@ -159,7 +195,10 @@ export default function OurTeam() {
           </div>
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={img}
+                className="rounded-full w-40 object-cover object-top h-40"
+              />
               <h4 className="font-bold px-4">Yashudha Kumal</h4>
               <h4 className="font-bold px-4">Member</h4>
             </div>
@@ -176,7 +215,10 @@ export default function OurTeam() {
         <div className="board flex flex-col justify-center">
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={Margie}
+                className="rounded-full w-40 object-cover object-top h-40"
+              />
               <h4 className="font-bold px-4">Margie Mainali</h4>
               <h4 className="font-bold px-4">Project Advisor</h4>
             </div>
@@ -190,7 +232,10 @@ export default function OurTeam() {
           </div>
           <div className="card mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={Pawan}
+                className="rounded-full w-40 object-cover  h-40"
+              />
               <h4 className="font-bold px-4">Pawan Giri</h4>
               <h4 className="font-bold px-4 ">Programme Coordinator</h4>
             </div>
@@ -202,7 +247,10 @@ export default function OurTeam() {
           </div>
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={Pipala}
+                className="rounded-full w-40 object-cover object-top h-40"
+              />
               <h4 className="font-bold px-4">Pipala Khadka</h4>
               <h4 className="font-bold px-4">Admin and Finance Assistant</h4>
             </div>
@@ -215,7 +263,10 @@ export default function OurTeam() {
           </div>
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={Bishna}
+                className="rounded-full w-40 object-cover  object-top h-40"
+              />
               <h4 className="font-bold px-4">Bishna Saud</h4>
               <h4 className="font-bold px-4">Field Supervisor</h4>
             </div>
@@ -228,7 +279,10 @@ export default function OurTeam() {
           </div>
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={Monika}
+                className="rounded-full w-40 object-cover object-top h-40"
+              />
               <h4 className="font-bold px-4">Monika Bohora</h4>
               <h4 className="font-bold px-4">Social Mobilizer</h4>
             </div>
@@ -239,7 +293,10 @@ export default function OurTeam() {
           </div>
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={img} className="rounded-full w-40" />
+              <img
+                src={Srijana}
+                className="rounded-full w-40 object-cover object-top h-40"
+              />
               <h4 className="font-bold px-4">Srijana Kunwar</h4>
               <h4 className="font-bold px-4">Office Assistant </h4>
             </div>
