@@ -11,10 +11,19 @@ export default function CompletedDetails(props) {
   } = props.location.state;
   return (
     <div className="w-4/5 mx-auto my-4">
-      <div className="title text-mainblue font-bold text-3xl my-2">{title}</div>
-      <div className="period text-xl">Period: {period}</div>
-      <div className="period text-xl">Budget: {budget}</div>
-      <div className="period text-xl">Supported By: {supportedBy}</div>
+      <div className="grid grid-cols-2">
+        <div>
+          <div className="title text-mainblue font-bold text-3xl my-2">
+            {title}
+          </div>
+          <div className="period text-xl">Period: {period}</div>
+          <div className="period text-xl">Budget: {budget}</div>
+          <div className="period text-xl">Supported By: {supportedBy}</div>
+        </div>
+        <div>
+          <img src="https://picsum.photos/400" />
+        </div>
+      </div>
       <div className="period text-xl font-bold my-4">
         Objectives<br></br> {}
         {objectives.map((obj) => (
