@@ -4,11 +4,22 @@ import Button from "../common/Button/Button";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
+const noticeList = [
+  {
+    title:
+      'SAMABIKAS Nepal Awarded by "With and For Girls" 2019 Award in London, UK',
+    date: "Mar 10, 2020",
+    description:
+      "SAMABIKAS Nepal awarded from the With and for Girls Awards 2019. Ms Pashupatik Kunwar, Chairperson of SAMABIKAS Nepal and Ms Shital BK, Chairperson of Baijanath Girsl Group participated in the Awards Ceremony in London, UK in the first week fo March 2020. The SAMABIKAS, the recipient of 2019 With and For Girls Award, selected from amongst 170 organizations across Europe & Central Asia, Asia Pacific, Sub-Saharan Africa, Americas & the Caribbean and North African and the Middle-East. The Award was the recognition of the work carried out by SAMABIKAS in Nepal.     ",
+    image: img,
+  },
+];
+
 export default function Notice() {
   const [notice, setnotice] = useState([]);
   // const [searchresult, setsearchresult] = useState([]);
   const [search, setsearch] = useState("");
-  const [isloading, setisloading] = useState(true);
+  const [isloading, setisloading] = useState(false);
 
   const fetchnotice = async () => {
     const { data, status } = await axios.get(
@@ -28,7 +39,7 @@ export default function Notice() {
   };
   useEffect(() => {
     fetchnotice();
-    console.log(notice);
+    // console.log(notice);
   }, [search]);
 
   if (isloading) {
@@ -54,12 +65,12 @@ export default function Notice() {
             />
           </div>
         </div>
-        {notice.map((note) => {
+        {noticeList.map((note) => {
           return (
             <card className="bg-gray-100 grid my-2 p-4 gap-10 md:grid md:grid-cols-2 md:grid-rows-1 rounded-lg">
               <div className="">
                 <img
-                  src={img}
+                  src={note.image}
                   style={{
                     width: "",
                     height: "14rem",

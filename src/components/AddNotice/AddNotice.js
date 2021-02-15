@@ -15,12 +15,6 @@ export default function AddNotice() {
       description: description,
       postdate: postdate,
     };
-    axios
-      .post(
-        "https://blooming-inlet-34308.herokuapp.com/api/postnotice",
-        noticedata
-      )
-      .then((response) => response.data);
 
     alert("submitted");
     settitle("");
