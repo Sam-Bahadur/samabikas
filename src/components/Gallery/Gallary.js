@@ -252,7 +252,7 @@ export default function Gallary() {
         <Gallery
           photos={jagaran}
           onClick={openLightbox}
-          targetRowHeight={200}
+          // targetRowHeight={200}
         />
         <ModalGateway>
           {viewerIsOpen ? (

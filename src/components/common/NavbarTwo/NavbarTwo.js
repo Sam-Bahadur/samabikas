@@ -30,8 +30,12 @@ export default function NavbarTwo() {
         <span className="text-gray-600">
           <AiFillPhone className="inline" />
           +097-625045 <FiMail className="inline ml-2" /> samabikas@gmail.com{" "}
-          <AiFillFacebook className="inline ml-2 hover:text-mainblue duration-300 cursor-pointer text-2xl" />
-          <AiFillYoutube className="inline ml-2 hover:text-mainblue duration-300 cursor-pointer text-2xl" />{" "}
+          <a href="https://www.facebook.com/samabikas/" target="_blank">
+            <AiFillFacebook className="inline ml-2 hover:text-mainblue duration-300 cursor-pointer text-2xl" />
+          </a>
+          <a href="#" target="_blank">
+            <AiFillYoutube className="inline ml-2 hover:text-mainblue duration-300 cursor-pointer text-2xl" />{" "}
+          </a>
         </span>
       </div>
     </div>

@@ -108,6 +108,16 @@ export default function ContactPage() {
           aria-hidden="false"
           tabindex="0"
         ></Iframe>
+        <Iframe
+          src="https://www.google.com/maps/d/u/0/embed?mid=16O1s8PPHySRM8gKPvT_Usqk4MkC4UiNS"
+          width="100%"
+          height="450"
+          frameborder="0"
+          style="border:0;"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></Iframe>
       </div>
     </div>
   );

@@ -8,9 +8,11 @@ export default function Footer() {
       <div className="flex flex-wrap justify-between w-4/5 mx-auto">
         <div className="text-xs">Copyright © 2021 Samabikas Nepal</div>
         <div className="flex text-white">
-          <span className="hover:text-mainblue duration-300 cursor-pointer text-2xl">
-            <FaFacebookSquare />
-          </span>
+          <a href="https://www.facebook.com/samabikas/" target="_blank">
+            <span className="hover:text-mainblue duration-300 cursor-pointer text-2xl">
+              <FaFacebookSquare />
+            </span>
+          </a>
           <span className="hover:text-mainblue duration-300 cursor-pointer text-2xl">
             <AiFillYoutube />
           </span>

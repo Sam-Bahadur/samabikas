@@ -20,9 +20,9 @@ export default function CompletedDetails(props) {
           <div className="period text-xl">Budget: {budget}</div>
           <div className="period text-xl">Supported By: {supportedBy}</div>
         </div>
-        <div>
+        {/* <div>
           <img src="https://picsum.photos/400" />
-        </div>
+        </div> */}
       </div>
       <div className="period text-xl font-bold my-4">
         Objectives<br></br> {}

@@ -230,14 +230,11 @@ export default function OurTeam() {
               India. She can be reached through margiemainali@gmail.com
             </div>
           </div>
-          <div className="card mt-4 bg-gray-200 md:grid md:grid-cols-4">
+          <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img
-                src={Pawan}
-                className="rounded-full w-40 object-cover  h-40"
-              />
+              <img src={Pawan} className="rounded-full w-40 object-top h-40" />
               <h4 className="font-bold px-4">Pawan Giri</h4>
-              <h4 className="font-bold px-4 ">Programme Coordinator</h4>
+              <h4 className="font-bold px-4">Programme Coordinator </h4>
             </div>
             <div className="col-start-2 col-span-full">
               Pawan Giri is working as a Programme Coordinator at SAMABIKAS
@@ -245,6 +242,7 @@ export default function OurTeam() {
               Achham. She can be reached through pawangiri0123@gmail.com
             </div>
           </div>
+
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
               <img
@@ -265,7 +263,7 @@ export default function OurTeam() {
             <div className="col-start-1 col-span-1 w-60 mx-auto">
               <img
                 src={Bishna}
-                className="rounded-full w-40 object-cover  object-top h-40"
+                className="rounded-full w-40   object-top h-40"
               />
               <h4 className="font-bold px-4">Bishna Saud</h4>
               <h4 className="font-bold px-4">Field Supervisor</h4>
@@ -281,7 +279,7 @@ export default function OurTeam() {
             <div className="col-start-1 col-span-1 w-60 mx-auto">
               <img
                 src={Monika}
-                className="rounded-full w-40 object-cover object-top h-40"
+                className="rounded-full w-40  object-top h-40"
               />
               <h4 className="font-bold px-4">Monika Bohora</h4>
               <h4 className="font-bold px-4">Social Mobilizer</h4>

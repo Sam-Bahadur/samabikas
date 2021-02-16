@@ -254,7 +254,7 @@ export default function Completed() {
               },
             }}
           >
-            <li className="hover:text-maingreen">{program.title}</li>
+            <li className="hover:text-maingreen md:text-lg">{program.title}</li>
           </Link>
         ))}
       </div>
