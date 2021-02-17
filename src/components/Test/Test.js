@@ -1,9 +1,9 @@
-import axios from "axios";
+// import axios from "axios";
 import React, { useState, useEffect } from "react";
 
 const people = [
   {
-    name: "James",
+    name: "James\nsam",
     age: 31,
   },
   {
@@ -45,20 +45,20 @@ const people = [
 ];
 
 export default function Test() {
-  const [rangeone, setrangeone] = useState(0);
-  const [rangetwo, setrangetwo] = useState(100);
-  const [result, setresult] = useState([]);
-  useEffect(() => {
-    const res = people.filter((person) => {
-      return person.age >= rangeone && person.age <= rangetwo;
-    });
-    setresult(res);
-    console.log(res);
-  }, [rangeone, rangetwo]);
+  // const [rangeone, setrangeone] = useState(0);
+  // const [rangetwo, setrangetwo] = useState(100);
+  // const [result, setresult] = useState([]);
+  // useEffect(() => {
+  //   const res = people.filter((person) => {
+  //     return person.age >= rangeone && person.age <= rangetwo;
+  //   });
+  //   setresult(res);
+  //   console.log(res);
+  // }, [rangeone, rangetwo]);
   return (
     <div>
       enter the search range <br></br>
-      <input
+      {/* <input
         type="number"
         className="font-normal placeholder-maingreen border border-mainblue rounded-lg px-2 m-4 w-20"
         value={rangeone}
@@ -72,8 +72,8 @@ export default function Test() {
         value={rangetwo}
         placeholder="range 2"
         onChange={(e) => setrangetwo(e.target.value)}
-      />
-      {result.map((person) => {
+      /> */}
+      {people.map((person) => {
         return (
           <div className="bg-mainblue m-4 px-4 py-2 max-w-full rounded-3xl">
             <div>{person.name}</div>

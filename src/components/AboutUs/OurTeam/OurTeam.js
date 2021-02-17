@@ -232,7 +232,7 @@ export default function OurTeam() {
           </div>
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
-              <img src={Pawan} className="rounded-full w-40 object-top h-40" />
+              <img src={Pawan} className="rounded-full w-40 object-fill h-40" />
               <h4 className="font-bold px-4">Pawan Giri</h4>
               <h4 className="font-bold px-4">Programme Coordinator </h4>
             </div>
@@ -263,7 +263,7 @@ export default function OurTeam() {
             <div className="col-start-1 col-span-1 w-60 mx-auto">
               <img
                 src={Bishna}
-                className="rounded-full w-40   object-top h-40"
+                className="rounded-full w-40 object-scale-down   object-top h-40"
               />
               <h4 className="font-bold px-4">Bishna Saud</h4>
               <h4 className="font-bold px-4">Field Supervisor</h4>

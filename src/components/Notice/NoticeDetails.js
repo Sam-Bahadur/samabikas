@@ -11,7 +11,12 @@ export default function NoticeDetails(props) {
       </div>
       <div className="text-base">{props.location.state.date.slice(0, 10)}</div>
       <hr className=""></hr>
-      <div className="text-lg my-2">{props.location.state.data}</div>
+      <div
+        className="text-lg my-2 text-justify"
+        style={{ "white-space": "pre-line" }}
+      >
+        {props.location.state.data}
+      </div>
     </div>
   );
 }

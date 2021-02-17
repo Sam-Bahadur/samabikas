@@ -15,6 +15,7 @@ export default function SimpleSlider() {
     dots: true,
     infinite: true,
     arrows: false,
+    pauseOnHover: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -34,7 +35,7 @@ export default function SimpleSlider() {
         </div>
         <div className="relative">
           <img className="h-4/6 md:h-screen w-screen object-cover" src={car2} />
-          <h1 className="absolute bottom-2 left-1/2 carousel_text font-bold md:text-4xl text-white">
+          <h1 className="absolute bottom-2 left-1/2 carousel_text font-bold md:text-5xl text-mainblue">
             Gender and Leadership Training
           </h1>
         </div>

@@ -97,7 +97,7 @@ export default function ContactPage() {
         </div>
       </div>
       <div className="max-w-full my-4">
-        <Iframe
+        {/* <Iframe
           className="map-filter"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25754.137207958494!2d81.33428799017263!3d29.049319952030476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a252071c536921%3A0x85f6b66a020a78bd!2sKamal%20Bazar%20Airport!5e0!3m2!1sen!2snp!4v1610428182108!5m2!1sen!2snp"
           width="100%"
@@ -107,7 +107,7 @@ export default function ContactPage() {
           allowfullscreen=""
           aria-hidden="false"
           tabindex="0"
-        ></Iframe>
+        ></Iframe> */}
         <Iframe
           src="https://www.google.com/maps/d/u/0/embed?mid=16O1s8PPHySRM8gKPvT_Usqk4MkC4UiNS"
           width="100%"
