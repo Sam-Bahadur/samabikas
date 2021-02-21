@@ -11,6 +11,11 @@ export default function NoticeDetails(props) {
       </div>
       <div className="text-base">{props.location.state.date.slice(0, 10)}</div>
       <hr className=""></hr>
+      <hr className=""></hr>
+      <img
+        className="h-80 object-cover object-top mx-auto"
+        src={props.location.state.image}
+      />
       <div
         className="text-lg my-2 text-justify"
         style={{ "white-space": "pre-line" }}

@@ -79,6 +79,7 @@ export default function Notice() {
               <div className="">
                 <img
                   src={note.image}
+                  className="mx-auto"
                   style={{
                     width: "",
                     height: "14rem",
@@ -102,6 +103,7 @@ export default function Notice() {
                         title: `${note.title}`,
                         date: `${note.date}`,
                         data: `${note.description}`,
+                        image: `${note.image}`,
                       },
                     }}
                   >

@@ -7,7 +7,7 @@ export default function Donation() {
       <div className="w-min mx-auto">
         <img
           className="h-4/6 md:absolute md:left-1/2 md:top-1/2 opacity-10 z-0"
-          // style={{ transform: `translate(${-50}%, ${-50}%) ` }}
+          style={{ transform: `translate(${-50}%, ${-50}%) ` }}
           src={image}
         />
       </div>

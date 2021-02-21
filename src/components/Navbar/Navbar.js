@@ -93,6 +93,11 @@ export default function Navbar() {
               onMouseLeave={() => setprogramsClicked(false)}
             >
               Programmes
+              {programsClicked ? (
+                <BiChevronUp className="inline" />
+              ) : (
+                <BiChevronDown className="inline" />
+              )}
             </li>
             {programsClicked ? programs : null}
           </div>
