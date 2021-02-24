@@ -236,7 +236,7 @@ const completedPrograms = [
 export default function Completed() {
   return (
     <div className="programs my-4 w-4/5 mx-auto">
-      <div className="text-center text-4xl text-mainblue font-bold">
+      <div className="text-center text-base md:text-4xl text-mainblue font-bold">
         Completed Projects
       </div>
       <div className="ongoing">

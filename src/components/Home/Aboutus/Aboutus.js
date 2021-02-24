@@ -3,10 +3,10 @@ import React from "react";
 export default function Aboutus() {
   return (
     <div className="w-full px-4">
-      <h1 className="text-mainblue font-bold text-3xl uppercase text-center">
+      <h1 className="text-mainblue font-bold md:text-3xl uppercase text-center">
         About us
       </h1>
-      <div className="text-justify">
+      <div className="text-justify text-sm md:text-base">
         <p className="my-4">
           SAMABIKAS Nepal is a right based organisation established by gender
           and rights activists August 2004. It is a community based organisation

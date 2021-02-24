@@ -7,7 +7,7 @@ import partner4 from "../../assets/images/partners/partner4.jpg";
 export default function Partners() {
   return (
     <div className="my-4">
-      <h1 className="text-mainblue text-center text-3xl font-bold uppercase ">
+      <h1 className="text-mainblue text-center md:text-3xl font-bold uppercase ">
         Partners
       </h1>
       <div className="flex flex-wrap md:flex-nowrap justify-center my-4">

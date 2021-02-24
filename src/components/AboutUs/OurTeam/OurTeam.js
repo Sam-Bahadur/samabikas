@@ -5,6 +5,10 @@ import krishna from "../../../assets/images/members/bod/krishna.jpg";
 import pashupati from "../../../assets/images/members/bod/pashupati.jpg";
 import rupa from "../../../assets/images/members/bod/rupa.jpg";
 import satya from "../../../assets/images/members/bod/satya.jpg";
+import basanti from "../../../assets/images/members/bod/basanti.jpg";
+import maheshwori from "../../../assets/images/members/bod/maheshowri.jpg";
+import samundra from "../../../assets/images/members/bod/samundra.jpg";
+import yashudha from "../../../assets/images/members/bod/yashudha.jpg";
 
 import Bishna from "../../../assets/images/members/staffs/Bishna.jpg";
 import Margie from "../../../assets/images/members/staffs/Margie.jpg";
@@ -130,7 +134,7 @@ export default function OurTeam() {
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
               <img
-                src={img}
+                src={basanti}
                 className="rounded-full w-40 object-cover object-top h-40"
               />
               <h4 className="font-bold px-4">Basanti Bohora</h4>
@@ -148,7 +152,7 @@ export default function OurTeam() {
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
               <img
-                src={img}
+                src={maheshwori}
                 className="rounded-full w-40 object-cover object-top h-40"
               />
               <h4 className="font-bold px-4">Maheshwori B.K.</h4>
@@ -180,7 +184,7 @@ export default function OurTeam() {
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
               <img
-                src={img}
+                src={samundra}
                 className="rounded-full w-40 object-cover object-top h-40"
               />
               <h4 className="font-bold px-4">Samundra Lohar</h4>
@@ -196,7 +200,7 @@ export default function OurTeam() {
           <div className="card p-4 mt-4 bg-gray-200 md:grid md:grid-cols-4">
             <div className="col-start-1 col-span-1 w-60 mx-auto">
               <img
-                src={img}
+                src={yashudha}
                 className="rounded-full w-40 object-cover object-top h-40"
               />
               <h4 className="font-bold px-4">Yashudha Kumal</h4>

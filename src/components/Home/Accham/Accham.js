@@ -5,10 +5,10 @@ export default function Accham() {
   return (
     <div className="accham-wrapper">
       <div className="accham-bg py-8 bg-left-bottom bg-cover"></div>
-      <p className="text-center text-4xl font-extrabold text-maingreen">
+      <p className="text-center text-base md:text-4xl font-extrabold text-maingreen">
         About Achham
       </p>
-      <p className="text-center text-lg w-4/5 mx-auto my-8 font-medium text-maingreen">
+      <p className="text-justify text-sm md:text-lg w-4/5 mx-auto my-8 font-medium text-maingreen">
         Achham is located in Sudur-Paschim Province of Nepal. According to UNDP,
         Achham comes in 69th position when it comes to development list. It is a
         rural area where the literacy rate between males and females has a huge
