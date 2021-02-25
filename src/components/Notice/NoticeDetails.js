@@ -6,10 +6,12 @@ export default function NoticeDetails(props) {
   }, []);
   return (
     <div className="my-8 w-4/5 mx-auto">
-      <div className="font-semibold text-2xl text-mainblue">
+      <div className="font-semibold text-base md:text-2xl text-mainblue">
         {props.location.state.title}
       </div>
-      <div className="text-base">{props.location.state.date.slice(0, 10)}</div>
+      <div className="text-sm md:text-base">
+        {props.location.state.date.slice(0, 10)}
+      </div>
       <hr className=""></hr>
       <hr className=""></hr>
       <img
@@ -17,7 +19,7 @@ export default function NoticeDetails(props) {
         src={props.location.state.image}
       />
       <div
-        className="text-lg my-2 text-justify"
+        className=" text-xs md:text-lg my-2 text-justify"
         style={{ "white-space": "pre-line" }}
       >
         {props.location.state.data}
