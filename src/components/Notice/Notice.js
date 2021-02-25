@@ -91,7 +91,7 @@ export default function Notice() {
                   {note.title}
                 </h1>
                 <div className="my-2">{note.date.slice(0, 10)}</div>
-                <div className="text-sm">
+                <div className="text-xs md:text-base">
                   {note.description.substring(0, 280)}...
                 </div>
                 <div className="mt-2">

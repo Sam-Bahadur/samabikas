@@ -8,7 +8,6 @@ import ContactPage from "./components/ContactPage/ContactPage";
 import NavbarTwo from "./components/common/NavbarTwo/NavbarTwo";
 import Notice from "./components/Notice/Notice";
 import Vision from "./components/AboutUs/Vision/Vision";
-import Governance from "./components/AboutUs/Governance/Governance";
 import WhoAreWe from "./components/AboutUs/WhoAreWe/WhoAreWe";
 import UnderConstruction from "./components/UnderConstruction/UnderConstruction";
 import Ngo from "./components/Partnership/Ngo";
@@ -24,7 +23,7 @@ import Completed from "./components/Programmes/Completed";
 import ongoingDetails from "./components/Programmes/ongoingDetails";
 import Donation from "./components/Donation/Donation";
 import CompletedDetails from "./components/Programmes/CompletedDetails";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 
 function App() {
   return (

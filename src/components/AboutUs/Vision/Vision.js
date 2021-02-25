@@ -1,11 +1,10 @@
 import React from "react";
-import { BsXDiamondFill } from "react-icons/bs";
 import "./Vision.scss";
 
 export default function Vision() {
   return (
     <div className="diamond w-full md:w-4/5 mx-auto">
-      <img className="watermark" />
+      <img className="watermark" alt="samabikas watermark" />
       <div className="my-4">
         <div className="text-mainblue text-base md:text-2xl font-semibold">
           Vision, Mission, Goals and Objectives

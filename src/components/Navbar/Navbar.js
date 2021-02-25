@@ -14,6 +14,11 @@ export default function Navbar() {
     setWidth(w);
     w > 768 ? setNavbarClicked(true) : setNavbarClicked(false);
   }, []);
+
+  // function navbarMenuClicked() {
+  //   window.innerWidth > 768 ? null : setNavbarClicked(false);
+  // }
+
   const aboutUs = (
     <div
       className={style.aboutus}
@@ -21,12 +26,24 @@ export default function Navbar() {
       onMouseLeave={() => setaboutUsClicked(false)}
     >
       <Link to="/about/vision">
-        <li className="w-60 md:w-full bg-mainblue">
+        <li
+          className="w-60 md:w-full bg-mainblue"
+          onClick={() =>
+            window.innerWidth > 768 ? null : setNavbarClicked(false)
+          }
+        >
           Vision, Mission, Goals and Objectives
         </li>
       </Link>
       <Link to="/about/ourteam">
-        <li className="bg-mainblue">Our Team</li>
+        <li
+          className="bg-mainblue"
+          onClick={() =>
+            window.innerWidth > 768 ? null : setNavbarClicked(false)
+          }
+        >
+          Our Team
+        </li>
       </Link>
     </div>
   );
@@ -37,10 +54,24 @@ export default function Navbar() {
       onMouseLeave={() => setprogramsClicked(false)}
     >
       <Link to="/programs/ongoing">
-        <li className="bg-mainblue">Ongoing Programs</li>
+        <li
+          className="bg-mainblue"
+          onClick={() =>
+            window.innerWidth > 768 ? null : setNavbarClicked(false)
+          }
+        >
+          Ongoing Programs
+        </li>
       </Link>
       <Link to="/programs/completed">
-        <li className="bg-mainblue">Completed Programs</li>
+        <li
+          className="bg-mainblue"
+          onClick={() =>
+            window.innerWidth > 768 ? null : setNavbarClicked(false)
+          }
+        >
+          Completed Programs
+        </li>
       </Link>
     </div>
   );
@@ -59,7 +90,12 @@ export default function Navbar() {
       <div className="shadow-lg w-full bg-maingreen z-50 h-18 text-sm pb-2 md:pb-0 ">
         <div className="h-full list-none  lg:flex items-center mx-auto w-min text-lg font-semibold text-white capitalize">
           <Link to="/">
-            <li className="  hover:bg-mainblue w-max p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out">
+            <li
+              className="  hover:bg-mainblue w-max p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out"
+              onClick={() =>
+                window.innerWidth > 768 ? null : setNavbarClicked(false)
+              }
+            >
               home
             </li>
           </Link>
@@ -102,22 +138,42 @@ export default function Navbar() {
             {programsClicked ? programs : null}
           </div>
           <Link to="/notice">
-            <li className="  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40    transition-colors duration-500 ease-in-out">
+            <li
+              className="  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40    transition-colors duration-500 ease-in-out"
+              onClick={() =>
+                window.innerWidth > 768 ? null : setNavbarClicked(false)
+              }
+            >
               Latest Activities
             </li>
           </Link>
           <Link to="/gallery">
-            <li className="  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40    transition-colors duration-500 ease-in-out">
+            <li
+              className="  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40    transition-colors duration-500 ease-in-out"
+              onClick={() =>
+                window.innerWidth > 768 ? null : setNavbarClicked(false)
+              }
+            >
               Gallery
             </li>
           </Link>
           <Link to="/contact">
-            <li className="  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out">
+            <li
+              className="  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out"
+              onClick={() =>
+                window.innerWidth > 768 ? null : setNavbarClicked(false)
+              }
+            >
               Contact
             </li>
           </Link>
           <Link to="/donate">
-            <li className=" md:absolute md:top-2 md:right-2 w-max bg-mainblue rounded-lg hover:bg-mainblue p-3 ml-2 border-radi self-center cursor-pointer md:border-gray-400 md:    transition-colors duration-500 ease-in-out">
+            <li
+              className=" md:absolute md:top-2 md:right-2 w-max bg-mainblue rounded-lg hover:bg-mainblue p-3 ml-2 border-radi self-center cursor-pointer md:border-gray-400 md:    transition-colors duration-500 ease-in-out"
+              onClick={() =>
+                window.innerWidth > 768 ? null : setNavbarClicked(false)
+              }
+            >
               Donate
             </li>
           </Link>

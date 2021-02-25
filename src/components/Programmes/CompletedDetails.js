@@ -37,10 +37,12 @@ export default function CompletedDetails(props) {
           <li className="font-semibold md:text-lg text-sm">{obj.o}</li>
         ))}
       </div>
-      <div className=" font-bold md:text-xl text-base my-4">
-        OutComes<br></br>
-        <div className="font-medium md:text-base text-sm">{outcomes}</div>
-      </div>
+      {outcomes ? (
+        <div className=" font-bold md:text-xl text-base my-4">
+          Outcomes<br></br>
+          <div className="font-medium md:text-base text-sm">{outcomes}</div>
+        </div>
+      ) : null}
     </div>
   );
 }

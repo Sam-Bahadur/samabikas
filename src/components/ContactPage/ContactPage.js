@@ -14,12 +14,12 @@ export default function ContactPage() {
         Contact Us
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10  my-4 p-4">
           <form className="text-2xl">
-            <div className="my-4 grid grid-cols-2">
+            <div className="my-4 grid grid-cols-4">
               <label className="text-black text-xs md:text-base ">
                 Name* :
               </label>
               <input
-                className=" text-xs md:text-base  ml-2 px-2 text-black  rounded-sm  border border-gray-200"
+                className=" text-xs md:text-base  ml-2 px-2 text-black  rounded-sm  border border-gray-200 col-start-2 col-span-3"
                 type="text"
                 placeholder="Name"
                 required
@@ -27,12 +27,12 @@ export default function ContactPage() {
                 onChange={(e) => setName(e.target.value)}
               />
             </div>
-            <div className="my-4 grid grid-cols-2">
+            <div className="my-4 grid grid-cols-4">
               <label className="text-black text-xs md:text-base ">
                 Email* :
               </label>
               <input
-                className=" text-xs md:text-base  ml-2 px-2 text-black  rounded-sm  border border-gray-200"
+                className=" text-xs md:text-base  ml-2 px-2 text-black  rounded-sm  border border-gray-200 col-start-2 col-span-3"
                 type="email"
                 placeholder="email"
                 required
@@ -40,31 +40,31 @@ export default function ContactPage() {
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
-            <div className="my-4 grid grid-cols-2">
+            <div className="my-4 grid grid-cols-4">
               <label className="text-black text-xs md:text-base ">
                 Phone :
               </label>
               <input
-                className=" text-xs md:text-base  ml-2 px-2 text-black  rounded-sm  border border-gray-200"
+                className=" text-xs md:text-base  ml-2 px-2 text-black  rounded-sm  border border-gray-200 col-start-2 col-span-3"
                 type="text"
                 placeholder="Phone"
                 value={phone}
                 onChange={(e) => setPhone(e.target.value)}
               />
             </div>
-            <div className="my-4 grid grid-cols-2">
+            <div className="my-4 grid grid-cols-4">
               <label className="text-black text-xs md:text-base ">
                 Message* :
               </label>
-              <div className="grid-rows-2">
+              <div className="grid-rows-2 col-start-2 col-span-3">
                 <textarea
-                  className=" text-xs md:text-base  ml-2  px-2 text-black  rounded-sm  border border-gray-200 h-40 w-full  "
+                  className=" text-xs md:text-base  ml-2  px-2 text-black  rounded-sm  border border-gray-200 h-40 w-full "
                   placeholder="your message here"
                   required
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
-                <div className="my-2 grid-cols-1 md:grid md:grid-cols-3">
+                <div className="my-2 grid grid-cols-3">
                   <p className="my-2 md:my-0 cursor-pointer px-2 py-0 w-max font-normal mx-auto rounded-sm bg-blue-300 hover:bg-blue-700 hover:text-white duration-500 text-xs md:text-lg">
                     Send
                   </p>
@@ -105,17 +105,6 @@ export default function ContactPage() {
         </div>
       </div>
       <div className="max-w-full my-4">
-        {/* <Iframe
-          className="map-filter"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25754.137207958494!2d81.33428799017263!3d29.049319952030476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a252071c536921%3A0x85f6b66a020a78bd!2sKamal%20Bazar%20Airport!5e0!3m2!1sen!2snp!4v1610428182108!5m2!1sen!2snp"
-          width="100%"
-          height="450"
-          frameborder="0"
-          style="border:0;"
-          allowfullscreen=""
-          aria-hidden="false"
-          tabindex="0"
-        ></Iframe> */}
         <Iframe
           src="https://www.google.com/maps/d/u/0/embed?mid=16O1s8PPHySRM8gKPvT_Usqk4MkC4UiNS"
           width="100%"

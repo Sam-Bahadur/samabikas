@@ -127,7 +127,6 @@ const completedPrograms = [
           "Improve the access of young girls and women to radio and print media",
       },
     ],
-    outcomes: "NA",
   },
   {
     sn: 6,
@@ -142,7 +141,6 @@ const completedPrograms = [
           "The major objective of the assessment was to find out the present constraints, opportunities and forms of socio-cultural discrimination against adolescent girls in Achham district",
       },
     ],
-    outcomes: "NA",
   },
   {
     sn: 7,
