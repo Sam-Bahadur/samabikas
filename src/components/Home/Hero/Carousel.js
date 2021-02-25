@@ -19,13 +19,10 @@ export default function SimpleSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    // autoplay: true,
+    autoplay: true,
   };
   return (
-    <div
-      className="my-8 cursor-grab max-h-60 md:h-screen"
-      style={{ zIndex: "-1" }}
-    >
+    <div className="my-8 cursor-grab md:h-screen" style={{ zIndex: "-1" }}>
       <Slider {...settings}>
         <div className="relative">
           <img className="h-60 md:h-screen w-screen object-cover" src={car1} />

@@ -8,31 +8,38 @@ export default function CompletedDetails(props) {
     supportedBy,
     objectives,
     outcomes,
+    image,
   } = props.location.state;
   return (
     <div className="w-4/5 mx-auto my-4">
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-1">
         <div>
-          <div className="title text-mainblue font-bold text-3xl my-2">
+          <div className="title text-mainblue font-bold md:text-3xl text-lg my-2">
             {title}
           </div>
-          <div className="period text-xl">Period: {period}</div>
-          <div className="period text-xl">Budget: {budget}</div>
-          <div className="period text-xl">Supported By: {supportedBy}</div>
+          <div className="period md:text-xl text-sm font-bold">
+            Period: {period}
+          </div>
+          <div className="period md:text-xl text-sm font-bold">
+            Budget: {budget}
+          </div>
+          <div className="period md:text-xl text-sm font-bold">
+            Supported By: {supportedBy}
+          </div>
         </div>
-        {/* <div>
-          <img src="https://picsum.photos/400" />
-        </div> */}
+        <div>
+          <img src={image} className="mx-auto" />
+        </div>
       </div>
-      <div className="period text-xl font-bold my-4">
-        Objectives<br></br> {}
+      <div className="period md:text-xl text-base font-bold my-4">
+        Objectives<br></br>
         {objectives.map((obj) => (
-          <li className="font-semibold">{obj.o}</li>
+          <li className="font-semibold md:text-lg text-sm">{obj.o}</li>
         ))}
       </div>
-      <div className=" font-bold text-xl my-4">
+      <div className=" font-bold md:text-xl text-base my-4">
         OutComes<br></br>
-        <div className="font-medium text-base">{outcomes}</div>
+        <div className="font-medium md:text-base text-sm">{outcomes}</div>
       </div>
     </div>
   );

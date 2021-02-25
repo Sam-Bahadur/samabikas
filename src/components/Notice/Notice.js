@@ -58,11 +58,10 @@ export default function Notice() {
     <>
       <div className="my-4 w-4/5 mx-auto">
         <div className="flex align-middle flex-wrap">
-          <div>
-            <h2 className="text-mainblue font-semibold text-4xl inline">
-              Latest Activities
-            </h2>
-          </div>
+          <h2 className="text-mainblue font-semibold text-lg md:text-4xl inline w-max mx-auto">
+            Latest Activities
+          </h2>
+
           {/* <div className="md:ml-auto text-xl">
             <input
               type="text"
@@ -88,7 +87,7 @@ export default function Notice() {
                 />
               </div>
               <div className="">
-                <h1 className="text-mainblue font-medium text-2xl">
+                <h1 className="text-mainblue font-medium text-base md:text-2xl">
                   {note.title}
                 </h1>
                 <div className="my-2">{note.date.slice(0, 10)}</div>

@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Ongoing.scss";
+import care_support from "../../assets/images/programs/completed/care_support.jpg";
+import chaupadi from "../../assets/images/programs/completed/chaupadi.jpg";
+import covid from "../../assets/images/programs/completed/covid.jpg";
+import rato_balti from "../../assets/images/programs/completed/rato_balti.jpg";
+import reproductive from "../../assets/images/programs/completed/reproductive.jpg";
 
 const completedPrograms = [
   {
@@ -76,6 +81,7 @@ const completedPrograms = [
     period: "September 15, 2009 – April 30, 2010",
     budget: "NRs. 1,933,690.00 (Contribution from CCO NRs. 1583,690.00)",
     supportedBy: "CCO/CLFI, Kathmandu",
+    image: reproductive,
     objectives: [
       {
         o:
@@ -144,6 +150,7 @@ const completedPrograms = [
       "Care and support to the survivors of uterus prolapses (an event based programme)",
     period: "November 25- December 10, 2008",
     budget: "NA",
+    image: care_support,
     supportedBy: "CARE Nepal/ Kathmandu Model Hospital/CAED, Kathmandu",
     objectives: [
       {
@@ -175,6 +182,7 @@ const completedPrograms = [
     title: "Rato Balti",
     period: "June 2018 to June 2019",
     budget: "NA",
+    image: rato_balti,
     supportedBy: "Be Artsy",
     objectives: [
       {
@@ -193,6 +201,7 @@ const completedPrograms = [
     title: "Chhaupadi Tradition Awareness Programme ",
     period: "May 2018 to June 2018",
     budget: "NA",
+    image: chaupadi,
     supportedBy: "Sanfebagar Municipality",
     objectives: [
       {
@@ -211,6 +220,7 @@ const completedPrograms = [
     title: "COVID-19 Activities",
     period: "April 2020 to June 2020",
     budget: "2,50,000",
+    image: covid,
     supportedBy: "Girls First Fund",
     objectives: [
       {
@@ -251,10 +261,13 @@ export default function Completed() {
                 supportedBy: program.supportedBy,
                 objectives: program.objectives,
                 outcomes: program.outcomes,
+                image: program.image,
               },
             }}
           >
-            <li className="hover:text-maingreen md:text-lg">{program.title}</li>
+            <li className="hover:text-maingreen text-sm md:text-lg text-justify">
+              {program.title}
+            </li>
           </Link>
         ))}
       </div>

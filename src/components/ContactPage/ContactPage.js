@@ -10,14 +10,16 @@ export default function ContactPage() {
   return (
     <div className="w-4/5 mx-auto">
       <div className="h-px w-full mt-4"></div>
-      <div className="text-mainblue mt-4 font-bold text-4xl">
+      <div className="text-mainblue mt-4 font-bold md:text-4xl">
         Contact Us
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10  my-4 p-4">
           <form className="text-2xl">
             <div className="my-4 grid grid-cols-2">
-              <label className="text-black text-base">Name* :</label>
+              <label className="text-black text-xs md:text-base ">
+                Name* :
+              </label>
               <input
-                className="text-base ml-2 px-2 text-black  rounded-sm  border border-gray-200"
+                className=" text-xs md:text-base  ml-2 px-2 text-black  rounded-sm  border border-gray-200"
                 type="text"
                 placeholder="Name"
                 required
@@ -26,9 +28,11 @@ export default function ContactPage() {
               />
             </div>
             <div className="my-4 grid grid-cols-2">
-              <label className="text-black text-base">Email* :</label>
+              <label className="text-black text-xs md:text-base ">
+                Email* :
+              </label>
               <input
-                className="text-base ml-2 px-2 text-black  rounded-sm  border border-gray-200"
+                className=" text-xs md:text-base  ml-2 px-2 text-black  rounded-sm  border border-gray-200"
                 type="email"
                 placeholder="email"
                 required
@@ -37,9 +41,11 @@ export default function ContactPage() {
               />
             </div>
             <div className="my-4 grid grid-cols-2">
-              <label className="text-black text-base">Phone :</label>
+              <label className="text-black text-xs md:text-base ">
+                Phone :
+              </label>
               <input
-                className="text-base ml-2 px-2 text-black  rounded-sm  border border-gray-200"
+                className=" text-xs md:text-base  ml-2 px-2 text-black  rounded-sm  border border-gray-200"
                 type="text"
                 placeholder="Phone"
                 value={phone}
@@ -47,21 +53,23 @@ export default function ContactPage() {
               />
             </div>
             <div className="my-4 grid grid-cols-2">
-              <label className="text-black text-base">Message* :</label>
+              <label className="text-black text-xs md:text-base ">
+                Message* :
+              </label>
               <div className="grid-rows-2">
                 <textarea
-                  className="text-base ml-2  px-2 text-black  rounded-sm  border border-gray-200 h-40 w-full  "
+                  className=" text-xs md:text-base  ml-2  px-2 text-black  rounded-sm  border border-gray-200 h-40 w-full  "
                   placeholder="your message here"
                   required
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
-                <div className="my-2 grid grid-cols-3">
-                  <p className="cursor-pointer px-2 py-0 w-max font-normal mx-auto rounded-sm bg-blue-300 hover:bg-blue-700 hover:text-white duration-500">
+                <div className="my-2 grid-cols-1 md:grid md:grid-cols-3">
+                  <p className="my-2 md:my-0 cursor-pointer px-2 py-0 w-max font-normal mx-auto rounded-sm bg-blue-300 hover:bg-blue-700 hover:text-white duration-500 text-xs md:text-lg">
                     Send
                   </p>
                   <p
-                    className="cursor-pointer px-2 py-0 w-max font-normal mx-auto rounded-sm bg-blue-300 hover:bg-blue-700 hover:text-white duration-500"
+                    className="my-2 md:my-0 cursor-pointer px-2 py-0 w-max font-normal mx-auto rounded-sm bg-blue-300 hover:bg-blue-700 hover:text-white duration-500 text-xs md:text-lg"
                     onClick={() => {
                       setName("");
                       setPhone("");
