@@ -15,10 +15,6 @@ export default function Navbar() {
     w > 768 ? setNavbarClicked(true) : setNavbarClicked(false);
   }, []);
 
-  // function navbarMenuClicked() {
-  //   window.innerWidth > 768 ? null : setNavbarClicked(false);
-  // }
-
   const aboutUs = (
     <div
       className={style.aboutus}
@@ -29,7 +25,9 @@ export default function Navbar() {
         <li
           className="w-60 md:w-full bg-mainblue"
           onClick={() =>
-            window.innerWidth > 768 ? null : setNavbarClicked(false)
+            window.innerWidth > 768
+              ? null
+              : setNavbarClicked(false) || setaboutUsClicked(false)
           }
         >
           Vision, Mission, Goals and Objectives
@@ -39,7 +37,9 @@ export default function Navbar() {
         <li
           className="bg-mainblue"
           onClick={() =>
-            window.innerWidth > 768 ? null : setNavbarClicked(false)
+            window.innerWidth > 768
+              ? null
+              : setNavbarClicked(false) || setaboutUsClicked(false)
           }
         >
           Our Team
@@ -57,7 +57,9 @@ export default function Navbar() {
         <li
           className="bg-mainblue"
           onClick={() =>
-            window.innerWidth > 768 ? null : setNavbarClicked(false)
+            window.innerWidth > 768
+              ? null
+              : setNavbarClicked(false) || setprogramsClicked(false)
           }
         >
           Ongoing Programs
@@ -67,7 +69,9 @@ export default function Navbar() {
         <li
           className="bg-mainblue"
           onClick={() =>
-            window.innerWidth > 768 ? null : setNavbarClicked(false)
+            window.innerWidth > 768
+              ? null
+              : setNavbarClicked(false) || setprogramsClicked(false)
           }
         >
           Completed Programs

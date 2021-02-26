@@ -4,7 +4,7 @@ import "./Vision.scss";
 export default function Vision() {
   return (
     <div className="diamond w-full md:w-4/5 mx-auto">
-      <img className="watermark" alt="samabikas watermark" />
+      <img className="watermark" alt="" />
       <div className="my-4">
         <div className="text-mainblue text-base md:text-2xl font-semibold">
           Vision, Mission, Goals and Objectives

@@ -8,13 +8,16 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 import logo from "../../../assets/logo/logo.png";
+import { Link } from "react-router-dom";
 
 export default function NavbarTwo() {
   return (
     <div className="flex flex-wrap justify-between my-2">
       <div className="flex justify-start items-center">
         <div className="m-1">
-          <img src={logo} className="w-11 md:w-20" />
+          <Link to="/">
+            <img src={logo} className="w-11 md:w-20" />
+          </Link>
         </div>
         <div>
           <span className="text-mainblue sm:text-base md:text-5xl font-bold">
