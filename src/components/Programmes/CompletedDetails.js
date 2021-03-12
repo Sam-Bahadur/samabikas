@@ -27,22 +27,24 @@ export default function CompletedDetails(props) {
             Supported By: {supportedBy}
           </div>
         </div>
-        <div>
+      </div>
+      <div id="content" className="md:grid md:grid-cols-3 md:grid-rows-1">
+        <div className="md:col-start-3 md:col-span-1 md:row-start-1 md:row-span-full">
           <img src={image} className="mx-auto" />
         </div>
-      </div>
-      <div className="period md:text-xl text-base font-bold my-4">
-        Objectives<br></br>
-        {objectives.map((obj) => (
-          <li className="font-semibold md:text-lg text-sm">{obj.o}</li>
-        ))}
-      </div>
-      {outcomes ? (
-        <div className=" font-bold md:text-xl text-base my-4">
-          Outcomes<br></br>
-          <div className="font-medium md:text-base text-sm">{outcomes}</div>
+        <div className="period md:text-xl text-base font-bold my-4">
+          Objectives<br></br>
+          {objectives.map((obj) => (
+            <li className="font-semibold md:text-lg text-sm">{obj.o}</li>
+          ))}
         </div>
-      ) : null}
+        {outcomes ? (
+          <div className=" font-bold md:text-xl text-base my-4">
+            Outcomes<br></br>
+            <div className="font-medium md:text-base text-sm">{outcomes}</div>
+          </div>
+        ) : null}
+      </div>
     </div>
   );
 }

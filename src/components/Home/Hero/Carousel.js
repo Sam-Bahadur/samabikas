@@ -16,10 +16,11 @@ export default function SimpleSlider() {
     infinite: true,
     arrows: false,
     pauseOnHover: false,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+    autoplaySpeed: 6000,
   };
   return (
     <div className="my-8 cursor-grab md:h-screen" style={{ zIndex: "-1" }}>

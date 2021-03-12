@@ -162,6 +162,11 @@ export default function Navbar() {
             </li>
           </Link>
           <Link to="/contact">
+            <li className="  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out">
+              Success Story
+            </li>
+          </Link>
+          <Link to="/contact">
             <li
               className="  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out"
               onClick={() =>

@@ -24,19 +24,18 @@ export default function ongoingDetails(props) {
             Supported By: {supportedBy}
           </div>
         </div>
-        <div>
-          {/* <img className="max-h-52 object-scale-down" src={image} /> */}
-        </div>
       </div>
-      <img
-        className="max-h-52 w-auto mx-auto my-4 border-4 border-black"
-        src={image}
-      />
-      <div
-        className="text-sm md:text-base text-justify"
-        style={{ "white-space": "pre-line" }}
-      >
-        {details}
+      <div className="md:grid md:grid-cols-3 md:grid-rows-1 my-4 gap-4">
+        <img
+          className="md:col-start-3 md:col-span-1 md:row-start-1 md:row-span-full  mx-auto my-4 border-4 border-black"
+          src={image}
+        />
+        <div
+          className="md:col-start-1 md:col-span-2 md:row-start-1 md:row-span-full text-sm md:text-base text-justify"
+          style={{ "white-space": "pre-line" }}
+        >
+          {details}
+        </div>
       </div>
     </div>
   );
