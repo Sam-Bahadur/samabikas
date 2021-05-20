@@ -42,12 +42,10 @@ const completedPrograms = [
         o: "Mass advocacy activities on GBV at VDC / ward level",
       },
       {
-        o:
-          "Formation of vigilance committees to keep track of incidences of GBV",
+        o: "Formation of vigilance committees to keep track of incidences of GBV",
       },
       {
-        o:
-          "Mobilization of stakeholders with orientation and identification of incidences of GBV at domestic, community and wider level.",
+        o: "Mobilization of stakeholders with orientation and identification of incidences of GBV at domestic, community and wider level.",
       },
     ],
     outcomes:
@@ -64,12 +62,10 @@ const completedPrograms = [
     objectives: [
       { o: "Abolishing the inhuman practices of Chhaupadi" },
       {
-        o:
-          "Improvement in the health condition of females of reproductive-health age group",
+        o: "Improvement in the health condition of females of reproductive-health age group",
       },
       {
-        o:
-          "Establishment of a permanent vigilance structure of the communities and local governments to safeguard the women and young girls from all sorts of discrimination specifically during menstruation",
+        o: "Establishment of a permanent vigilance structure of the communities and local governments to safeguard the women and young girls from all sorts of discrimination specifically during menstruation",
       },
     ],
     outcomes:
@@ -84,28 +80,23 @@ const completedPrograms = [
     image: reproductive,
     objectives: [
       {
-        o:
-          "Improve women’s reproductive health particularly of the village women, who are suffering from uterus prolapses",
+        o: "Improve women’s reproductive health particularly of the village women, who are suffering from uterus prolapses",
       },
       {
-        o:
-          "Strengthen the capacity of community health structures in four (4) VDCs of Achham district          ",
+        o: "Strengthen the capacity of community health structures in four (4) VDCs of Achham district          ",
       },
       {
-        o:
-          "Establish better community reproductive health service at the community level in the project area          ",
+        o: "Establish better community reproductive health service at the community level in the project area          ",
       },
       {
-        o:
-          "Increase access to women reproductive health service particularly treatment service for the uterus prolapsed women           ",
+        o: "Increase access to women reproductive health service particularly treatment service for the uterus prolapsed women           ",
       },
       {
-        o:
-          "Increase knowledge and skill of the executing agency in project management and implementation.",
+        o: "Increase knowledge and skill of the executing agency in project management and implementation.",
       },
     ],
     outcomes:
-      "Campaign against Chhaupadi was conducted over a period of 6 months across 5 VDCs of Achham district. Training and workshops were conducted where political parties leaders, representatives of school and other government / non-government employees,  religious leaders, adolescent boys and girls participated. Girls and women came openly against all social discriminations. A total of 761 women abandoned the Chhaupadi tradition and commenced to live in the main house safely. Similarly, VDC’s ward no. 8 declared as free Chhaupadi society where 45 menstruated women abandoned Chhaupadi tradition. 80% people are aware about ill practices of Chhaupadi tradition and a religious assumption regarding the Chhaupadi has been decreasing in its number. In October 2018, a national level workshop was conducted to make menstrual health issues as a part of primary school curriculum. The old curriculum is outdated and the revised one should focus on the illegality of the practice.",
+      "A 4 day camp regarding reproductive health was organised in Sanfebagar and Budhabagar of Achham district to screen the women who were suffering from uterus prolapses. Out of the total women, who visited the health camps 85 cases were investigated with uterus prolapse problems from first to third degree stages. A total of 42 women with uterus prolapse were referred to Nepalgunj Medical College for surgical treatment. Operation was performed on all of them. These women are now living a dignified life. One of the major outcomes is that there has been improved women reproductive health particularly of the village women, who are suffering from uterus prolapses.",
   },
   {
     sn: 5,
@@ -115,16 +106,13 @@ const completedPrograms = [
     supportedBy: "Child Workers in Nepal (CWIN), Kathmandu",
     objectives: [
       {
-        o:
-          "Orient the young girls about the basics of journalism and media reporting",
+        o: "Orient the young girls about the basics of journalism and media reporting",
       },
       {
-        o:
-          "Sensitise the young girls towards gender sensitive reporting and story writing",
+        o: "Sensitise the young girls towards gender sensitive reporting and story writing",
       },
       {
-        o:
-          "Improve the access of young girls and women to radio and print media",
+        o: "Improve the access of young girls and women to radio and print media",
       },
     ],
   },
@@ -137,8 +125,7 @@ const completedPrograms = [
     supportedBy: "Child Workers in Nepal Concern Centre (CWIN), Kathmandu",
     objectives: [
       {
-        o:
-          "The major objective of the assessment was to find out the present constraints, opportunities and forms of socio-cultural discrimination against adolescent girls in Achham district",
+        o: "The major objective of the assessment was to find out the present constraints, opportunities and forms of socio-cultural discrimination against adolescent girls in Achham district",
       },
     ],
   },
@@ -152,24 +139,19 @@ const completedPrograms = [
     supportedBy: "CARE Nepal/ Kathmandu Model Hospital/CAED, Kathmandu",
     objectives: [
       {
-        o:
-          "The programme was undertaken as a part of the sixteen-day campaign against violence of women",
+        o: "The programme was undertaken as a part of the sixteen-day campaign against violence of women",
       },
       {
-        o:
-          "The main activities and events covered under the programme were the identification of women of the far-western region with uterus prolapses; facilitate their treatment at Kathmandu Model Hospital.            ",
+        o: "The main activities and events covered under the programme were the identification of women of the far-western region with uterus prolapses; facilitate their treatment at Kathmandu Model Hospital.            ",
       },
       {
-        o:
-          "There were six women identified and selected who were suffering from uterus prolapses of second and third stage and were taken to Kathmandu for check- up and treatment. Four of them were screened with third stage problem. Operation was undertaken of four women.            ",
+        o: "There were six women identified and selected who were suffering from uterus prolapses of second and third stage and were taken to Kathmandu for check- up and treatment. Four of them were screened with third stage problem. Operation was undertaken of four women.            ",
       },
       {
-        o:
-          "Prepared and screened a video documentary with true stories of the survivors of uterus prolapses narrating the cause and effects of uterus prolapses      ",
+        o: "Prepared and screened a video documentary with true stories of the survivors of uterus prolapses narrating the cause and effects of uterus prolapses      ",
       },
       {
-        o:
-          "Participants of the documentary screening ceremony were, among others, the Minister for Health, Population and Environment, gender and rights activists, journalists, representatives from I/NGOs working on the issues and problems of the women, ex- members of parliament, members of the Constituent Assembly from Achham and other districts representing various political parties.",
+        o: "Participants of the documentary screening ceremony were, among others, the Minister for Health, Population and Environment, gender and rights activists, journalists, representatives from I/NGOs working on the issues and problems of the women, ex- members of parliament, members of the Constituent Assembly from Achham and other districts representing various political parties.",
       },
     ],
     outcomes:
@@ -184,8 +166,7 @@ const completedPrograms = [
     supportedBy: "Be Artsy",
     objectives: [
       {
-        o:
-          "Distribution of Menstrual Cups and metal buckets (baltin) to have clean water and somewhere to boil the cup.          ",
+        o: "Distribution of Menstrual Cups and metal buckets (baltin) to have clean water and somewhere to boil the cup.          ",
       },
       {
         o: "Abolishment of Chhaupadi Practice",
@@ -203,8 +184,7 @@ const completedPrograms = [
     supportedBy: "Sanfebagar Municipality",
     objectives: [
       {
-        o:
-          "The training of trainers was given to 30 women who further gave the training to other women. A total of 600 women participated in making reusable cloth sanitary pads.",
+        o: "The training of trainers was given to 30 women who further gave the training to other women. A total of 600 women participated in making reusable cloth sanitary pads.",
       },
       {
         o: "Advocacy regarding menstrual health and hygiene was also done.",
@@ -222,15 +202,13 @@ const completedPrograms = [
     supportedBy: "Girls First Fund",
     objectives: [
       {
-        o:
-          "Distribution of soap and reusable cloth sanitary pad to girls and young women.",
+        o: "Distribution of soap and reusable cloth sanitary pad to girls and young women.",
       },
       {
         o: "Radio Jingle programme to create awareness",
       },
       {
-        o:
-          "A two-way phoning to the expert programme to answer the questions of the people who are living in uncertainties regarding the COVID-19 and regarding the domestic violence being faced by women due to the lockdown. ",
+        o: "A two-way phoning to the expert programme to answer the questions of the people who are living in uncertainties regarding the COVID-19 and regarding the domestic violence being faced by women due to the lockdown. ",
       },
       {
         o: "Distribution of relief food packages to orphan children",

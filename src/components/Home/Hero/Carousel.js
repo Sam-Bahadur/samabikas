@@ -6,7 +6,7 @@ import car1 from "../../../assets/images/banner/Adolescent girls participating i
 import car2 from "../../../assets/images/banner/car2.jpg";
 import car3 from "../../../assets/images/banner/Mastamandu decleared as Chhaupadi Free Area .JPG";
 import car4 from "../../../assets/images/banner/SAMABIKAS Nepal awarded by With and For Girls in London on March 2020.jpg";
-import car5 from "../../../assets/images/banner/Sheetal B.K. from Budakot Achham receiving Award from With and For Girls in London on March 2020.jpg";
+import car5 from "../../../assets/images/banner/Reproductive Health Camp organized by SAMABIKAS Nepal, Chaurpati Rural Municiplaity and District Health Office.jpg";
 import car6 from "../../../assets/images/banner/Young women in gender and leadership training.jpg";
 import "./Carousel.scss";
 
@@ -26,6 +26,14 @@ export default function SimpleSlider() {
     <div className="my-8 cursor-grab md:h-screen" style={{ zIndex: "-1" }}>
       <Slider {...settings}>
         <div className="relative">
+          <img className="h-60 md:h-screen w-screen object-cover" src={car2} />
+          <div className="absolute w-full bottom-0 bg-maingreen">
+            <h1 className="bottom-0 md:w-max max-w-max mx-auto carousel_text font-bold text-xs md:text-2xl  text-white bg-maingreen">
+              Samabikas Team
+            </h1>
+          </div>
+        </div>
+        <div className="relative">
           <img className="h-60 md:h-screen w-screen object-cover" src={car1} />
           <div className="absolute w-full bottom-0 bg-maingreen">
             <h1 className="bottom-0 md:w-max max-w-max mx-auto carousel_text font-bold text-xs md:text-2xl  text-white bg-maingreen">
@@ -33,14 +41,7 @@ export default function SimpleSlider() {
             </h1>
           </div>
         </div>
-        <div className="relative">
-          <img className="h-60 md:h-screen w-screen object-cover" src={car2} />
-          <div className="absolute w-full bottom-0 bg-maingreen">
-            <h1 className="bottom-0 md:w-max max-w-max mx-auto carousel_text font-bold text-xs md:text-2xl  text-white bg-maingreen">
-              Gender and Leadership Training
-            </h1>
-          </div>
-        </div>
+
         <div className="relative">
           <img className="h-60 md:h-screen w-screen object-cover" src={car3} />
           <div className="absolute w-full bottom-0 bg-maingreen">
@@ -60,13 +61,13 @@ export default function SimpleSlider() {
         </div>
         <div className="relative">
           <img
-            className="h-60 md:h-screen w-full object-scale-down object-top"
+            className="h-60 md:h-screen w-full object-cover object-center"
             src={car5}
           />
           <div className="absolute w-full bottom-0 bg-maingreen">
             <h1 className="bottom-0 md:w-max max-w-max mx-auto carousel_text font-bold text-xs md:text-2xl  text-white bg-maingreen">
-              Sheetal B.K. from Budakot Achham receiving Award from With and For
-              Girls in London on March 2020
+              Reproductive Health Camp organized by SAMABIKAS Nepal, Chaurpati
+              Rural Municiplaity and District Health Office
             </h1>
           </div>
         </div>

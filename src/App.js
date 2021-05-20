@@ -23,7 +23,7 @@ import Completed from "./components/Programmes/Completed";
 import ongoingDetails from "./components/Programmes/ongoingDetails";
 import Donation from "./components/Donation/Donation";
 import CompletedDetails from "./components/Programmes/CompletedDetails";
-// import { useState, useEffect } from "react";
+import Success from "./components/Success/Success";
 
 function App() {
   return (
@@ -50,6 +50,7 @@ function App() {
           <Route exact path="/programmes" component={Programmes} />
           <Route exact path="/notice/details" component={NoticeDetails} />
           <Route exact path="/test" component={Test} />
+          <Route exact path="/successtory" component={Success} />
           <Route exact path="/programs/ongoing" component={Ongoing} />
           <Route exact path="/programs/completed" component={Completed} />
           <Route

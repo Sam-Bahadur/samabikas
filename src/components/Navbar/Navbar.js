@@ -161,7 +161,7 @@ export default function Navbar() {
               Gallery
             </li>
           </Link>
-          <Link to="/contact">
+          <Link to="/successtory">
             <li className="  w-max hover:bg-mainblue p-3 py-5 border-radi self-center cursor-pointer md:border-gray-400 md:border-r border-opacity-40  transition-colors duration-500 ease-in-out">
               Success Story
             </li>

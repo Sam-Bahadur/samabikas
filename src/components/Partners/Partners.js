@@ -3,6 +3,7 @@ import partner1 from "../../assets/images/partners/partner1.jpg";
 import partner2 from "../../assets/images/partners/partner2.png";
 import partner3 from "../../assets/images/partners/partner3.png";
 import partner4 from "../../assets/images/partners/partner4.jpg";
+import partner5 from "../../assets/images/partners/partner5.png";
 
 export default function Partners() {
   return (
@@ -15,6 +16,7 @@ export default function Partners() {
         <img className="w-20 h-18 md:w-40 md:h-28 mx-1" src={partner2} />
         <img className="w-20 h-18 md:w-40 md:h-28 mx-1" src={partner3} />
         <img className="w-20 h-18 md:w-40 md:h-28 mx-1" src={partner4} />
+        <img className="w-20 h-18 md:w-40 md:h-28 mx-1" src={partner5} />
       </div>
     </div>
   );

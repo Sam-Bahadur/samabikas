@@ -26,10 +26,11 @@ export default function ongoingDetails(props) {
         </div>
       </div>
       <div className="md:grid md:grid-cols-3 md:grid-rows-1 my-4 gap-4">
-        <img
-          className="md:col-start-3 md:col-span-1 md:row-start-1 md:row-span-full  mx-auto my-4 border-4 border-black"
-          src={image}
-        />
+        <div className="md:col-start-3 md:col-span-1 md:row-start-1 md:row-span-full mx-auto my-4 ">
+          {image.map((im) => (
+            <img className="my-1" src={im} />
+          ))}
+        </div>
         <div
           className="md:col-start-1 md:col-span-2 md:row-start-1 md:row-span-full text-sm md:text-base text-justify"
           style={{ "white-space": "pre-line" }}
