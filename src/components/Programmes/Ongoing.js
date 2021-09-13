@@ -8,6 +8,10 @@ import award from "../../assets/images/programs/award.jpg";
 import reproductive from "../../assets/images/programs/reproductive.jpg";
 import reproductive2 from "../../assets/images/programs/reproductive2.jpg";
 import reproductive3 from "../../assets/images/programs/reproductive3.jpg";
+import freedom from "../../assets/images/programs/freedom.jpg";
+import freedom1 from "../../assets/images/programs/freedom1.jpg";
+import freedom2 from "../../assets/images/programs/freedom2.jpg";
+import freedom3 from "../../assets/images/programs/freedom3.jpg";
 
 const ongoingPrograms = [
   {
@@ -39,6 +43,16 @@ const ongoingPrograms = [
     image: [reproductive, reproductive2, reproductive3],
     details:
       "Adolescent pregnancy is one of the major risk factors for uterus prolapse because the pelvis of adolescent girls may not yet be fully developed which leads to an increased risk of prolonged or difficult labor. That in turn increases the chance of damage to the pelvic muscles causing uterus prolapses. According to the Nepal government’s 2011 Demographic and Health Survey 10.5% of 17-year-old girls, 4.9% of 16-year-old girls and 0.9% of 15 year old girls were pregnant or had given birth to their first child. The 2013 UNFPA study of 357 women who had undergone surgery for stage three uterus prolapses found the median age of marriage was 14 years and median age of first pregnancy was 18.\n This project will create an awareness program targeting the girls from age between 11 and 19 years. They will receive training on issues including the health consequences of child marriage and early pregnancies and related laws. However, it will be a small-scale programme in reducing early marriage and adolescent pregnancy. By targeting girls, it may be effective in reducing the numbers of girls who elope and marry. We will also be providing the adolescent girls a platform to showcase their ability and capabilities. Organizing a debate session, engaging them in sports, providing them training like journalism, public speaking, knitting, sewing etc. this type of training will enhance their leadership, studying and researching skills. Recognizing their personal ability and including them in those activities catering to their abilities. Another major activity is improving the Sexual and Reproductive Health of Girls. The intentional project intervention will contribute to adapt the safe practices and behaviors.\n",
+  },
+  {
+    sn: 4,
+    title: "Freedom Kit Bags",
+    period: "April 2021 to ongoing",
+    budget: "US$ 5,000",
+    supportedBy: "Freedom Kit Bags",
+    image: [freedom, freedom1, freedom2, freedom3],
+    details:
+      'Chhaupadi is a form of menstrual taboo which prohibits Hindu women and girls from participating in normal family activities while menstruating, as they are considered "impure". They are forced to sleep in a cowshed or menstruating huts which have small doors and are often dilapidated, with poor sanitation and ventilation, and no windows. Many girls and women die due to suffocation, snake bite, and exposure to extreme temperatures. Many girls and women were raped inside the hut. SAMABIKAS Nepal has been advocating for the complete abolition of the practice and conducting workshops on menstrual hygiene management.\n Chhaupadi is a violation of the right to be free from gender discrimination and gender-based violence which are guaranteed under the constitution of Nepal and international human rights treaties, including the International Convention on the Elimination of all forms of Discrimination Against Women. SAMABIKAS Nepal has been proactively working to eradicate the harmful practice of banishing women and girls to unsanitary and dangerous huts during their menstrual cycles\nAs a part of our advocacy, we have distributed 500 hygiene kit bags to women and girls who do not have access to sanitary pads and have to suffer from many reproductive-related diseases and we are in the process of distributing more to meet the demands of reusable sanitary pads.\nThe kit bags consist of 3 reusable sanitary pad holders, 12 day and night reusable pads, 3 panties, soap, pegs, and ropes, waterproof bags to store the used sanitary pads, and one fancy purse to store the clean pads. Destigmatized menstruation as a normal biological function, reduces the prevalence of chhaupadi, and mitigates its consequences. The empowered girls now continue to attend school and are active in public spaces. We have also provided training to women for making sanitary pads. Now they are aware of the necessity of menstrual hygiene and also have access to sanitary pads. Apart from this, girls and women who were part of the training are now sewing sanitary pads and earning income. We have set up a small sewing room in our office premise and are providing training to girls and women who want to develop their skill and earn a  living by making sanitary pads.\n',
   },
 ];
 

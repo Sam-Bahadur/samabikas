@@ -24,6 +24,7 @@ import ongoingDetails from "./components/Programmes/ongoingDetails";
 import Donation from "./components/Donation/Donation";
 import CompletedDetails from "./components/Programmes/CompletedDetails";
 import Success from "./components/Success/Success";
+import SuccessDetails from "./components/Success/SuccessDetails";
 
 function App() {
   return (
@@ -64,6 +65,7 @@ function App() {
             path="/programs/ongoing/details"
             component={ongoingDetails}
           />
+          <Route exact path="/successtory/:id" component={SuccessDetails} />
           <Route exact path="/" component={Home} />
           <Route exact component={UnderConstruction} />
         </Switch>

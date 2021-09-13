@@ -26,7 +26,11 @@ export default function SimpleSlider() {
     <div className="my-8 cursor-grab md:h-screen" style={{ zIndex: "-1" }}>
       <Slider {...settings}>
         <div className="relative">
-          <img className="h-60 md:h-screen w-screen object-cover" src={car2} />
+          <img
+            className="h-60 md:h-screen w-screen object-cover"
+            src={car2}
+            alt={car2}
+          />
           <div className="absolute w-full bottom-0 bg-maingreen">
             <h1 className="bottom-0 md:w-max max-w-max mx-auto carousel_text font-bold text-xs md:text-2xl  text-white bg-maingreen">
               Samabikas Team
@@ -34,7 +38,11 @@ export default function SimpleSlider() {
           </div>
         </div>
         <div className="relative">
-          <img className="h-60 md:h-screen w-screen object-cover" src={car1} />
+          <img
+            className="h-60 md:h-screen w-screen object-cover"
+            src={car1}
+            alt={car1}
+          />
           <div className="absolute w-full bottom-0 bg-maingreen">
             <h1 className="bottom-0 md:w-max max-w-max mx-auto carousel_text font-bold text-xs md:text-2xl  text-white bg-maingreen">
               Adolescent girls participating in Gender and Leadership Training
@@ -43,7 +51,11 @@ export default function SimpleSlider() {
         </div>
 
         <div className="relative">
-          <img className="h-60 md:h-screen w-screen object-cover" src={car3} />
+          <img
+            className="h-60 md:h-screen w-screen object-cover"
+            src={car3}
+            alt={car3}
+          />
           <div className="absolute w-full bottom-0 bg-maingreen">
             <h1 className="bottom-0 md:w-max max-w-max mx-auto carousel_text font-bold text-xs md:text-2xl  text-white bg-maingreen">
               Mastamandu decleared as Chhaupadi Free Area
@@ -51,7 +63,11 @@ export default function SimpleSlider() {
           </div>
         </div>
         <div className="relative">
-          <img className="h-60 md:h-screen w-screen object-cover" src={car4} />
+          <img
+            className="h-60 md:h-screen w-screen object-cover"
+            src={car4}
+            alt={car4}
+          />
           <div className="absolute w-full bottom-0 bg-maingreen">
             <h1 className="bottom-0 md:w-max max-w-max mx-auto carousel_text font-bold text-xs md:text-2xl  text-white bg-maingreen">
               SAMABIKAS Nepal awarded by With and For Girls in London on March
@@ -63,6 +79,7 @@ export default function SimpleSlider() {
           <img
             className="h-60 md:h-screen w-full object-cover object-center"
             src={car5}
+            alt={car5}
           />
           <div className="absolute w-full bottom-0 bg-maingreen">
             <h1 className="bottom-0 md:w-max max-w-max mx-auto carousel_text font-bold text-xs md:text-2xl  text-white bg-maingreen">
@@ -72,7 +89,11 @@ export default function SimpleSlider() {
           </div>
         </div>
         <div className="relative">
-          <img className="h-60 md:h-screen w-screen object-cover" src={car6} />
+          <img
+            className="h-60 md:h-screen w-screen object-cover"
+            src={car6}
+            alt={car6}
+          />
           <div className="absolute w-full bottom-0 bg-maingreen">
             <h1 className="bottom-0 md:w-max max-w-max mx-auto carousel_text font-bold text-xs md:text-2xl  text-white bg-maingreen">
               Young women in gender and leadership training

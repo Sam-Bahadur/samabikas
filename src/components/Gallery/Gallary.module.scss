@@ -7,6 +7,7 @@
     width: 290px;
     height: 180px;
     flex: 1 1 310px;
+    object-fit: cover;
     // max-width: 320px;
     &:hover {
       transform: scale(0.97);

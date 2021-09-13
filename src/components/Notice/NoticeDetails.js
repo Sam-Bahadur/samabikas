@@ -10,11 +10,12 @@ export default function NoticeDetails(props) {
         {props.location.state.title}
       </div>
       <div className="text-sm md:text-base">
-        {props.location.state.date.slice(0, 10)}
+        {props.location.state.date.slice(0, 14)}
       </div>
       <hr className=""></hr>
       <hr className=""></hr>
       <img
+        alt={props.location.state.title}
         className="h-80 object-cover object-top mx-auto"
         src={props.location.state.image}
       />
